@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="inner links-body fade-in fade-two">
+  <a class="pure-button button-xlarge button-red" href="../"> &larr; back</a>
+  <div class="pure-g">
+    <div class="pure-u-1-1 filler"></div>
+    {% assign faculties = site.data.faculties | group_by:'type' %}
+    {% for group in faculties %}
+    <div class="pure-u-1-1 pure-u-md-1-{{ forloop.length }}">
+      <div class="pure-u-1-1">{{ group.name }}</div>
+      {% for faculty in group.items %}
+      <div class="pure-u-1-1"><a class="pure-button button-xlarge button-{{ faculty.colour }}" href="{{ faculty.url | escape }}" target="_blank">{{ faculty.name }}</a></div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
