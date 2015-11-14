@@ -1,0 +1,7 @@
+name,url,gridsize,colour,divclasses
+Only works at MHS:,TEXT,,,
+Web Quota,https://auth.localnetwork.zone:60091/statspopup,1-2,darkblue,
+Usage Stats,http://auth.netbox/portal/,1-2,darkblue,
+Certificate,http://www.localnetwork.zone/noauth/cacert,1-2,darkblue,
+Mail Forward,http://admin.vicone.netspace.net.au/,1-2,darkblue,
+,,,,

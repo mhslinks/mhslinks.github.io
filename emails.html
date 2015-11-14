@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="inner emails-body fade-in fade-two">
+  <div><a class="pure-button button-xlarge button-red" href="../"> &larr; back</a></div>
+  <h1>Staff Edumail Email Addresses</h1>
+  <div>Please note that not all teachers use/check their Edumail emails. This list is supplied as a reference, and not a replacement for not being bothered to ask your teacher what their email is.</div>
+  <br>
+  <div class="small"><span style="line-height: 1.4;">If there is an email not on this page, please click on the "Contribute!" link in the top right corner and follow the instructions at the bottom of the page.</span></div>
+  <br>
+  <div class="small">
+  {% assign emails = site.data.emails | sort: 'local' %}
+    {% for email in emails %}
+    <div><a href="mailto:{{ email.local }}@edumail.vic.gov.au">{{ email.local }}<span class="email">@edumail.vic.gov.au</span></a>{% if email.notes %} {{ email.notes | escape }}{% endif %}</div>
+    {% endfor %}
+  </div>
+</div>
