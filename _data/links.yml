@@ -1,0 +1,38 @@
+- name: Compass
+  url: https://mhs.vic.jdlf.com.au
+  size: 1-1
+  colour: green
+
+- name: MHS Connect
+  url: http://connect.mhs.vic.edu.au/
+  size: 1-1
+  colour: green
+
+- name: MHS Portal
+  url: http://domain.mhs.vic.edu.au/
+  size: 1-1
+  colour: green
+
+-
+
+- name: Emails
+  url: emails/
+  size: 1-2
+  colour: lightblue
+
+- name: Faculties
+  url: faculties/
+  size: 1-2
+  colour: lightblue
+
+-
+
+- name: Webmail
+  url: https://webmail.netspace.net.au/
+  size: 1-2
+  colour: blue
+
+- name: Mail Setup
+  url: http://pdrew.me/MHS/mailprofile.html
+  size: 1-2
+  colour: blue

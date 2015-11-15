@@ -1,0 +1,23 @@
+- text: "Only works at MHS:"
+
+- name: Web Quota
+  url: https://auth.localnetwork.zone:60091/statspopup
+  size: 1-2
+  colour: darkblue
+
+- name: Usage Stats
+  url: http://auth.netbox/portal/
+  size: 1-2
+  colour: darkblue
+
+- name: Certificate
+  url: http://www.localnetwork.zone/noauth/cacert
+  size: 1-2
+  colour: darkblue
+
+- name: Mail Forward
+  url: http://admin.vicone.netspace.net.au/
+  size: 1-2
+  colour: darkblue
+
+- 

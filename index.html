@@ -6,10 +6,10 @@ layout: default
   {% for type in site.data.linktypes %}
   <div class="pure-g{% if type.class %} {{ type.class }}{% endif %}">
     {% for link in site.data[type.name] %}
-    {% if link.url == "TEXT" %}
-    <div class="pure-u-1-1 pure-u-md-1-1">{{ link.name }}</div>
-    {% elsif link.name %}
-    <div class="pure-u-1-1 pure-u-md-{{ link.gridsize }}{% if link.divclasses %} {{link.divclasses}}{% endif %}"><a class="pure-button button-xlarge button-{{ link.colour }}" href="{{ link.url | escape }}"{% if link.url.include? "html" %} target="_blank"{% endif %}>{{ link.name }}</a></div>
+    {% if link.text %}
+    <div class="pure-u-1-1 pure-u-md-1-1">{{ link.text }}</div>
+    {% elsif link %}
+    <div class="pure-u-1-1 pure-u-md-{{ link.size }}{% if link.divclasses %} {{ link.divclasses }}{% endif %}"><a class="pure-button button-xlarge button-{{ link.colour }}" href="{{ link.url }}"{% if link.url contains "html" %} target="_blank"{% endif %}>{{ link.name }}</a></div>
     {% else %}
     <div class="pure-u-1-1 gridfix filler"></div>
     {% endif %}

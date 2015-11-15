@@ -1,0 +1,5 @@
+- name: links
+- name: smalllinks
+  class: small-grid
+- name: narrowlinks
+  class: narrow-grid small-grid

@@ -1,0 +1,20 @@
+-
+  name: Pages
+  colour: blue
+  links:
+    - name: English
+      url: http://resources.mhs.vic.edu.au/english/
+    - name: Science
+      url: http://resources.mhs.vic.edu.au/science/
+    - name: Physics
+      url: http://physicsatmhs.com/
+-
+  name: Portal
+  colour: green
+  links:
+    - name: Maths
+      url: http://domain.mhs.vic.edu.au/Student/Faculties/Maths
+    - name: Chemistry
+      url: http://domain.mhs.vic.edu.au/Student/Faculties/Chemistry
+    - name: Biology
+      url: http://domain.mhs.vic.edu.au/Student/Faculties/Biology
