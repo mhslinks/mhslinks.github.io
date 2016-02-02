@@ -20,7 +20,7 @@
   size: 1-1
   colour: lightblue
 
-- name: Faculties
+- name: Faculty Resources
   url: faculties/
   size: 1-1
   colour: lightblue
