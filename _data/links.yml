@@ -10,12 +10,12 @@
 
 - name: MHS Portal
   url: http://domain.mhs.vic.edu.au/
-  size: 1-1
+  size: 1-2
   colour: green
   
 - name: Faculty Resources
   url: faculties/
-  size: 1-1
+  size: 1-2
   colour: green
 
 -
