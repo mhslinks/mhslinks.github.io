@@ -17,12 +17,12 @@
 
 - name: Teacher Emails
   url: emails/
-  size: 1-2
+  size: 1-1
   colour: lightblue
 
 - name: Faculties
   url: faculties/
-  size: 1-2
+  size: 1-1
   colour: lightblue
 
 -
