@@ -11,4 +11,4 @@ Contributing
 
 Anyone can feel free to contribute to MHS Links, whether it be the addition of new links or new emails. **Note that the emails are automatically sorted**, so there is no need to manually sort it in the CSV.
 
-For most people, the easiest way is to privately message me over a medium such as Facebook. If you know the ropes of `git` and GitHub, please send a pull request or make an issue.
+For most people, the easiest way is to privately message an IT Executive over a medium such as Facebook. If you know the ropes of `git` and GitHub, please send a pull request or make an issue.
