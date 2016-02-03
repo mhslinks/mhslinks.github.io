@@ -3,7 +3,7 @@
   size: 1-1
   colour: orange
 
-  - name: SRC Voting Beta
-  url: http://128.199.218.2/limesurvey/
+- name: SRC Voting Beta
+  url: http://128.199.218.2/limesurvey
   size: 1-1
   colour: orange
