@@ -1,3 +1,8 @@
+- name: Year 12 Garment Voting
+  url: http://128.199.218.2/limesurvey/index.php/542967?lang=en
+  size: 1-1
+  colour: red
+
 - name: Compass
   url: https://mhs.vic.jdlf.com.au
   size: 1-1
