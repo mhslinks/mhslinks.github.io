@@ -28,8 +28,6 @@
 - name: capon.philippa.j
 - name: carroll.amanda.l
 - name: chandler.ann.m
-- name: chrystiuk.sarah.s
-  notes: left MHS
 - name: cogo.peter.d
 - name: collombet-sankey.noelle
 - name: connell.michael.j
@@ -39,8 +37,6 @@
 - name: davidson.benjamin.z
 - name: de.korte.gareth.g
 - name: dedrick.stephen.n
-- name: delaney.seamus.s
-  notes: left MHS
 - name: devlin.janet.e
 - name: dias.clayton.c
 - name: dickson.rosemary.r
@@ -59,6 +55,7 @@
 - name: flanagan.william.f
 - name: fox.jodie.a
 - name: frencham.michael.m
+  notes: left MHS
 - name: fujino.masaya.m
 - name: ganella.saki.g
 - name: gardner.gayle.l
@@ -80,8 +77,6 @@
 - name: inaba.yuko.y
 - name: ingrisciano.marcia.r
 - name: ireson.christopher.j
-- name: janson.adrian.a
-  notes: left MHS
 - name: janus.stefan.j
 - name: johnstone.june.j
 - name: kaderle.mark.j
@@ -93,13 +88,9 @@
 - name: kishor.krishna.j
 - name: krasnowski.jeanette.j
 - name: kreher.ute.u
-- name: lester.paulette.p
-  notes: left MHS
 - name: lierse.rosemary.a
 - name: loriot.michel.r
 - name: ludowyke.jeremy.jb
-- name: lye.timothy.t
-  notes: left MHS
 - name: mahoney.blair.b
 - name: malarska.kat.k
 - name: maller.judith.m
@@ -108,8 +99,6 @@
 - name: martin.shane.d
 - name: masefau.a.j
 - name: mccoll.barbara.f
-- name: mccomb.robert.h
-  notes: left MHS
 - name: mcgann.paul.r
 - name: mcmahon.john.r
 - name: melbourne.hs
@@ -131,8 +120,6 @@
 - name: paul.anne.l
 - name: petrie.frances.f
 - name: porter.kellie.m
-- name: prideaux.janet.e
-  notes: left MHS
 - name: pring.lucy.j
 - name: pritchard.ross.g
 - name: rachmat.jatni.e
@@ -153,8 +140,6 @@
 - name: slocombe.joshua.g
 - name: smigielski.lucy.l
 - name: smith.john.s
-- name: smyth.david.j
-  notes: left MHS
 - name: smyth.kerry.m
 - name: stanczyk.wesley.s
 - name: stephens.lenore.l
@@ -170,11 +155,7 @@
 - name: watkins.evan.j
 - name: watterson.susanne.l
 - name: white.michael.m
-- name: wood.peter.s
-  notes: left MHS
 - name: wright.paul.w
-- name: yarussky.michael.m
-  notes: left MHS
 - name: yeaman.annabelle.v
 - name: homewood.barry.s
 - name: roberts.michelle.m1
