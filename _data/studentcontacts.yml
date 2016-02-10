@@ -29,7 +29,7 @@
   members:
     - position: President
       name: Yoann Colin
-      email:
+      email: yoann_colin@yahoo.com.au
 
     - position: Vice-President
       name: Ben Qin
@@ -49,7 +49,7 @@
 
     - position: Assistant Treasurer
       name: Rahul Sathish
-      email:
+      email: rahul.sathish@icloud.com
 
 
 - name: House Captains
@@ -84,7 +84,7 @@
 
     - position: Yarra Vice-Captain
       name: Abeshek Nadarajah
-      email:
+      email: abesheknadarajah321@gmail.com
 
 - name: SRC Executives
   members:
@@ -124,7 +124,7 @@
   members:
     - position: IT Captain
       name: Peter Drew
-      email:
+      email: peter.drew@outlook.com.au
 
     - position: IT Vice-Captain
       name: Moss Ebeling
@@ -134,7 +134,7 @@
   members:
     - position: Music Captain
       name: Billy Chen
-      email:
+      email: billychen10@hotmail.com
 
     - position: Music Vice Captain
       name: Po Goh
