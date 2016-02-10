@@ -28,7 +28,7 @@ body
 	font-size: 110%;
 }
 
-.outer 
+.outer
 {
 	display: table;
 	position: absolute;
@@ -36,13 +36,13 @@ body
 	width: 100%;
 }
 
-.middle 
+.middle
 {
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.inner 
+.inner
 {
 	margin-left: auto;
 	margin-right: auto;
@@ -129,7 +129,7 @@ body
 	}
 }
 
-.fade-in 
+.fade-in
 {
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
@@ -197,8 +197,8 @@ a
 a:focus
 {
 	box-shadow: 0 0 7px rgba(255, 0, 0, 1);
-	-webkit-box-shadow: 0 0 7px rgba(255, 0, 0, 1); 
-	-moz-box-shadow: 0 0 7px rgba(255, 0, 0, 1); 
+	-webkit-box-shadow: 0 0 7px rgba(255, 0, 0, 1);
+	-moz-box-shadow: 0 0 7px rgba(255, 0, 0, 1);
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6

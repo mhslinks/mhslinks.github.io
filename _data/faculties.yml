@@ -1,13 +1,12 @@
--
-  name: Pages
+- name: Pages
   colour: blue
   links:
     - name: English
       url: http://resources.mhs.vic.edu.au/english/
     - name: Physics
       url: http://physicsatmhs.com/
--
-  name: Portal
+
+- name: Portal
   colour: green
   links:
     - name: Maths
