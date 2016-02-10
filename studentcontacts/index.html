@@ -8,21 +8,24 @@ title: Student Leader Contacts
   <div>Text here</div>
   <br>
   <div class="small">
-      <table style="width:100%">
-          <tr>
-              <th>Position</th>
-              <th>Name</th>
-              <th>Email</th>
-          </tr>
           {% assign students = site.data.studentcontacts%}
           {% for student in students %}
-          <tr>
-              {% if student.group %}<td>{{student.group}}</td>{% endif %}
-              {% if student.position %}<td>{{student.position}}</td>{% endif %}
-              {% if student.name %}<td>{{student.name}}</td>{% endif %}
-              {% if student.email %}<td><a href="mailto:{{ student.email }}">{{ student.email }}</a></td>{% endif %}
-          </tr>
+              {% if student.group %}{{student.group}}
+              </table>
+              <table style="width:100%">
+                  <tr>
+                      <th>Position</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                  </tr>
+              {% endif %}
+              {% if student.position %}
+                  <tr>
+                      <td>{{student.position}}</td>
+                      <td>{{student.name}}</td>
+                      <td><a href="mailto:{{ student.email }}">{{ student.email }}</a></td>
+                  </tr>
+                  {% endif %}
           {% endfor %}
-      </table>
 </div>
 </div>
