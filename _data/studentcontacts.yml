@@ -9,19 +9,19 @@
       email:
 
     - position: Junior School Captain
-      name:
+      name: Meth Prathapasinghe
       email:
 
     - position: Junior School Captain
-      name:
+      name: Kabisan Sutharsan
       email:
 
     - position: Junior School Captain
-      name:
+      name: Matthew Travaglini
       email:
 
     - position: Junior School Captain
-      name:
+      name: John Poliniak
       email:
 
 
@@ -59,7 +59,7 @@
       email:
 
     - position: Como Vice-Captain
-      name:
+      name: Cary Douros
       email:
 
     - position: Forrest Captain
@@ -71,19 +71,19 @@
       email:
 
     - position: Waterloo Captain
-      name:
+      name: Harry Pham
       email:
 
     - position: Waterloo Vice-Captain
-      name:
+      name: Michael Kuzminski
       email:
 
     - position: Yarra Captain
-      name:
+      name: Guy Velik
       email:
 
     - position: Yarra Vice-Captain
-      name:
+      name: Abeshek Nadarajah
       email:
 
 - name: SRC Executives
@@ -123,19 +123,19 @@
 - name: IT Captains
   members:
     - position: IT Captain
-      name:
-      email:
+      name: Peter Drew
+      email: test
 
     - position: IT Vice-Captain
-      name:
+      name: Moss Ebeling
       email:
 
 - name: Music Captains
   members:
     - position: Music Captain
-      name:
+      name: Billy Chen
       email:
 
     - position: Music Vice Captain
-      name:
+      name: Po Goh
       email:
