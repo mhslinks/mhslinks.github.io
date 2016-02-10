@@ -1,145 +1,141 @@
-# Please add new emails to the end of this file.
-- group: School Captains
+- name: School Captains
+  members:
+    - position: School Captain
+      name: Jackson Long
+      email:
 
-- position: School Captain
-  name: Jackson Long
-  email: 
+    - position: School Vice-Captain
+      name: Oliver Johnson
+      email:
 
-- position: School Vice-Captain
-  name: Oliver Johnson
-  email: 
+    - position: Junior School Captain
+      name:
+      email:
 
-- position: Junior School Captain
-  name: 
-  email: 
+    - position: Junior School Captain
+      name:
+      email:
 
-- position: Junior School Captain
-  name: 
-  email: 
+    - position: Junior School Captain
+      name:
+      email:
 
-- position: Junior School Captain
-  name: 
-  email: 
+    - position: Junior School Captain
+      name:
+      email:
 
-- position: Junior School Captain
-  name: 
-  email: 
 
-- endgroupgroup: 
-- group: SRC Cabinet
+- name: SRC Cabinet
+  members:
+    - position: President
+      name: Yoann Colin
+      email:
 
-- position: President
-  name: Yoann Colin
-  email: 
+    - position: Vice-President
+      name: Ben Qin
+      email:
 
-- position: Vice-President
-  name: Ben Qin
-  email: 
+    - position: Secretary
+      name: Arman Riazati
+      email:
 
-- position: Secretary
-  name: Arman Riazati
-  email: 
+    - position: Assistant Secretary
+      name: Rivi Prathapasinghe
+      email:
 
-- position: Assistant Secretary
-  name: Rivi Prathapasinghe
-  email: 
+    - position: Treasurer
+      name: Victor Soong
+      email:
 
-- position: Treasurer
-  name: Victor Soong
-  email: 
+    - position: Assistant Treasurer
+      name: Rahul Sathish
+      email:
 
-- position: Assistant Treasurer
-  name: Rahul Sathish
-  email: 
 
-- endgroupgroup: 
-- group: House Captains
+- name: House Captains
+  members:
+    - position: Como Captain
+      name: Sothea-Roth Bak
+      email:
 
-- position: Como Captain
-  name: Sothea-Roth Bak
-  email: 
+    - position: Como Vice-Captain
+      name:
+      email:
 
-- position: Como Vice-Captain
-  name: 
-  email: 
+    - position: Forrest Captain
+      name: James Richter
+      email:
 
-- position: Forrest Captain
-  name: James Richter
-  email: 
+    - position: Forrest Vice-Captain
+      name: Zac Zhou
+      email:
 
-- position: Forrest Vice-Captain
-  name: Zac Zhou
-  email: 
+    - position: Waterloo Captain
+      name:
+      email:
 
-- position: Waterloo Captain
-  name: 
-  email: 
+    - position: Waterloo Vice-Captain
+      name:
+      email:
 
-- position: Waterloo Vice-Captain
-  name: 
-  email: 
+    - position: Yarra Captain
+      name:
+      email:
 
-- position: Yarra Captain
-  name: 
-  email: 
+    - position: Yarra Vice-Captain
+      name:
+      email:
 
-- position: Yarra Vice-Captain
-  name: 
-  email: 
+- name: SRC Executives
+  members:
+    - position: Year 12 Executive
+      name:
+      email:
 
-- endgroupgroup: 
-- group: SRC Executives
+    - position: Year 12 Executive
+      name:
+      email:
 
-- position: Year 12 Executive
-  name: 
-  email: 
+    - position: Year 11 Executive
+      name:
+      email:
 
-- position: Year 12 Executive
-  name: 
-  email: 
+    - position: Year 11 Executive
+      name:
+      email:
 
-- position: Year 11 Executive
-  name: 
-  email: 
+    - position: Year 10 Executive
+      name:
+      email:
 
-- position: Year 11 Executive
-  name: 
-  email: 
+    - position: Year 10 Executive
+      name:
+      email:
 
-- position: Year 10 Executive
-  name: 
-  email: 
+    - position: Year 9 Executive
+      name:
+      email:
 
-- position: Year 10 Executive
-  name: 
-  email: 
+    - position: Year 9 Executive
+      name:
+      email:
 
-- position: Year 9 Executive
-  name: 
-  email: 
+- name: IT Captains
+  members:
+    - position: IT Captain
+      name:
+      email:
 
-- position: Year 9 Executive
-  name: 
-  email: 
+    - position: IT Vice-Captain
+      name:
+      email:
 
-- endgroupgroup: 
-- group: IT Captains
+- name: Music Captains
+  members:
+    - position: Music Captain
+      name:
+      email:
 
-- position: IT Captain
-  name: 
-  email: 
-
-- position: IT Vice-Captain
-  name: 
-  email: 
-
-- endgroupgroup: 
-- group: Music Captains
-
-- position: Music Captain
-  name: 
-  email: 
-
-- position: Music Vice Captain
-  name: 
-  email: 
+    - position: Music Vice Captain
+      name:
+      email:
