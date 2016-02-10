@@ -10,7 +10,8 @@ title: Student Leader Contacts
     <div class="small">
         {% assign students = site.data.studentcontacts%}
         {% for student in students %}
-        {% if student.group %}{{student.group}}
+        {% if student.group %}<b>{{student.group}}</b>
+        <br>
         <table style="width:100%">
             <tr>
                 <th>Position</th>
