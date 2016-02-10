@@ -3,29 +3,31 @@ layout: default
 title: Student Leader Contacts
 ---
 <div class="inner emails-body fade-in fade-two">
-  <div><a class="pure-button button-xlarge button-red" href="../"> &larr; back</a></div>
-  <h1>Student Leader Contacts</h1>
-  <div>Text here</div>
-  <br>
-  <div class="small">
-          {% assign students = site.data.studentcontacts%}
-          {% for student in students %}
-              {% if student.group %}{{student.group}}
-              </table>
-              <table style="width:100%">
-                  <tr>
-                      <th>Position</th>
-                      <th>Name</th>
-                      <th>Email</th>
-                  </tr>
-              {% endif %}
-              {% if student.position %}
-                  <tr>
-                      <td>{{student.position}}</td>
-                      <td>{{student.name}}</td>
-                      <td><a href="mailto:{{ student.email }}">{{ student.email }}</a></td>
-                  </tr>
-                  {% endif %}
-          {% endfor %}
-</div>
+    <div><a class="pure-button button-xlarge button-red" href="../"> &larr; back</a></div>
+    <h1>Student Leader Contacts</h1>
+    <div>Text here</div>
+    <br>
+    <div class="small">
+        {% assign students = site.data.studentcontacts%}
+        {% for student in students %}
+        {% if student.group %}{{student.group}}
+        <table style="width:100%">
+            <tr>
+                <th>Position</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            {% endif %}
+            {% if student.position %}
+            <tr>
+                <td>{{student.position}}</td>
+                <td>{{student.name}}</td>
+                <td><a href="mailto:{{ student.email }}">{{ student.email }}</a></td>
+            </tr>
+            {% endif %}
+            {% if student.group %}{{student.endgroup}}
+            </table>
+            {% endif %}
+            {% endfor %}
+    </div>
 </div>
