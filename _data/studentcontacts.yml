@@ -124,7 +124,7 @@
   members:
     - position: IT Captain
       name: Peter Drew
-      email: test
+      email:
 
     - position: IT Vice-Captain
       name: Moss Ebeling
