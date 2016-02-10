@@ -1,0 +1,29 @@
+---
+layout: default
+title: Student Leader Contacts
+---
+<div class="inner emails-body fade-in fade-two">
+  <div><a class="pure-button button-xlarge button-red" href="../"> &larr; back</a></div>
+  <h1>Staff Edumail Email Addresses</h1>
+  <div>Text here</div>
+  <br>
+  <div class="small"><span style="line-height: 1.4;">Text here.</span></div>
+  <br>
+  <div class="small">
+      <table style="width:100%">
+          <tr>
+              <th>Position</th>
+              <th>Name</th>
+              <th>Form</th>
+              <th>Email</th>
+          </tr>
+          {% assign students = site.data.studentcontacts%}
+          {% for student in students %}
+          <div><td>{{student.position}}</td></div>
+          <div><td>{{student.name}}</td></div>
+          <div><td>{{student.form}}</td></div>
+          <div><a href="mailto:{{ student.email }}@edumail.vic.gov.au">{{ student.email }}</a>{% if student.notes %} ({{ email.notes | escape }}){% endif %}</div>
+          {% endfor %}
+      </table>
+</div>
+</div>
