@@ -5,9 +5,8 @@ title: Student Leader Contacts
 <div class="inner emails-body fade-in fade-two">
     <div><a class="pure-button button-xlarge button-red" href="../"> &larr; back</a></div>
     <h1>Student Leader Contacts</h1>
-    <div>Here you will find contact details for the student leaders. This page is still udner development.</div>
-    <br>
     <div class="small">
+<<<<<<< HEAD
         {% assign students = site.data.studentcontacts%}
         {% for student in students %}
         {% if student.group %}<b>{{student.group}}</b>
@@ -25,5 +24,26 @@ title: Student Leader Contacts
             </table><br>
             {% endif %}
             {% endfor %}
+=======
+        <table style="max-width: 400px; margin: 0 auto;">
+            <tbody>
+                {% assign groups = site.data.studentcontacts%}
+                {% for group in groups %}
+                <tr>
+                    <th colspan="3">
+                        {{group.name}}
+                    </th>
+                </tr>
+                {% for member in group.members %}
+                <tr>
+                    <td><i>{{ member.position }}</i></td>
+                    <td>{% if member.email %}<a href="mailto:{{ member.email }}">{% endif %}{{ member.name }}{% if member.email %}</a>{% endif %}</td>
+                </tr>
+                {% endfor %}
+                <tr><td>&nbsp;</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+>>>>>>> refs/remotes/origin/studentcontacts-cleanup
     </div>
 </div>
