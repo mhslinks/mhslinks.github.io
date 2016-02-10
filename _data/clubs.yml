@@ -1,19 +1,4 @@
-- name: test1
-  teacher: teacher name
-  studentname: student name
-  studentemail: student email
-
-- name: test2
-  teacher: teacher name
-  studentname:
-  studentemail: student email
-
-- name: test3
-  teacher:
-  studentname: student name
-  studentemail: student email
-
-- name: test4
-  teacher: teacher name
-  studentname: student name
-  studentemail:
+- name: Robotics
+  teacher: Mr Drew
+  studentname: Peter Drew
+  studentemail: peter.drew@outlook.com.au
