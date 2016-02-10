@@ -19,10 +19,12 @@ title: Student Leader Contacts
           </tr>
           {% assign students = site.data.studentcontacts%}
           {% for student in students %}
-          <div><td>{{student.position}}</td></div>
-          <div><td>{{student.name}}</td></div>
-          <div><td>{{student.form}}</td></div>
-          <div><a href="mailto:{{ student.email }}@edumail.vic.gov.au">{{ student.email }}</a>{% if student.notes %} ({{ email.notes | escape }}){% endif %}</div>
+          <tr>
+              <td>{{student.position}}</td>
+              <td>{{student.name}}</td>
+              <td>{{student.form}}</td>
+              <td><a href="mailto:{{ student.email }}@edumail.vic.gov.au">{{ student.email }}</a>{% if student.notes %} ({{ email.notes | escape }}){% endif %}</td>
+          </tr>
           {% endfor %}
       </table>
 </div>
