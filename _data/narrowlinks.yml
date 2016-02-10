@@ -1,8 +1,3 @@
-- name: Student Leader Contacts (BETA)
-  url: studentcontacts/
-  size: 1-1
-  colour: lightblue
-
 - name: Internet at School Survey
   url: http://goo.gl/forms/Ik30EZfqbP
   size: 1-1
