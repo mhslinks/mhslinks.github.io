@@ -34,7 +34,7 @@
   size: 1-1
   colour: lightblue
 
-  - name: Student Leaders
+- name: Student Leader Emails
   url: studentcontacts/
   size: 1-1
   colour: lightblue
