@@ -6,25 +6,6 @@ title: Student Leader Contacts
     <div><a class="pure-button button-xlarge button-red" href="../"> &larr; back</a></div>
     <h1>Student Leader Contacts</h1>
     <div class="small">
-<<<<<<< HEAD
-        {% assign students = site.data.studentcontacts%}
-        {% for student in students %}
-        {% if student.group %}<b>{{student.group}}</b>
-        <br>
-        <table style="width:100%">
-            {% endif %}
-            {% if student.position %}
-            <tr>
-                <td>{{student.position}}</td>
-                <td>{{student.name}}</td>
-                <td><a href="mailto:{{ student.email }}">{{ student.email }}</a></td>
-            </tr>
-            {% endif %}
-            {% if student.endgroup %}
-            </table><br>
-            {% endif %}
-            {% endfor %}
-=======
         <table style="max-width: 400px; margin: 0 auto;">
             <tbody>
                 {% assign groups = site.data.studentcontacts%}
@@ -44,6 +25,5 @@ title: Student Leader Contacts
                 {% endfor %}
             </tbody>
         </table>
->>>>>>> refs/remotes/origin/studentcontacts-cleanup
     </div>
 </div>
