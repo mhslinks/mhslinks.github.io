@@ -34,11 +34,6 @@
   size: 1-1
   colour: lightblue
 
-- name: Student Leader Contacts
-  url: studentcontacts/
-  size: 1-1
-  colour: lightblue
-
 -
 
 - name: Webmail
