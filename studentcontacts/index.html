@@ -4,26 +4,23 @@ title: Student Leader Contacts
 ---
 <div class="inner emails-body fade-in fade-two">
   <div><a class="pure-button button-xlarge button-red" href="../"> &larr; back</a></div>
-  <h1>Staff Edumail Email Addresses</h1>
+  <h1>Student Leader Contacts</h1>
   <div>Text here</div>
-  <br>
-  <div class="small"><span style="line-height: 1.4;">Text here.</span></div>
   <br>
   <div class="small">
       <table style="width:100%">
           <tr>
               <th>Position</th>
               <th>Name</th>
-              <th>Form</th>
               <th>Email</th>
           </tr>
           {% assign students = site.data.studentcontacts%}
           {% for student in students %}
           <tr>
-              <td>{{student.position}}</td>
-              <td>{{student.name}}</td>
-              <td>{{student.form}}</td>
-              <td><a href="mailto:{{ student.email }}@edumail.vic.gov.au">{{ student.email }}</a>{% if student.notes %} ({{ email.notes | escape }}){% endif %}</td>
+              {% if student.group %}<td>{{student.group}}</td>{% endif %}
+              {% if student.position %}<td>{{student.position}}</td>{% endif %}
+              {% if student.name %}<td>{{student.name}}</td>{% endif %}
+              {% if student.email %}<td><a href="mailto:{{ student.email }}">{{ student.email }}</a></td>{% endif %}
           </tr>
           {% endfor %}
       </table>
