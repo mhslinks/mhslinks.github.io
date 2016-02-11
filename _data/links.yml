@@ -1,12 +1,3 @@
-- text: "Help improve MHS Links:"
-
-- name: Feedback
-  url: http://goo.gl/forms/M9wpKCkuBq
-  size: 1-1
-  colour: red
-
--
-
 - name: Compass
   url: https://mhs.vic.jdlf.com.au
   size: 1-1
@@ -55,3 +46,10 @@
   url: http://pdrew.me/MHS/mailprofile.html
   size: 1-2
   colour: blue
+
+-
+
+- name: Feedback
+  url: http://goo.gl/forms/M9wpKCkuBq
+  size: 1-1
+  colour: red
