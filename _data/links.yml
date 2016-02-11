@@ -5,13 +5,6 @@
   size: 1-1
   colour: red
 
-- text: "Add your club/ extra-curricular program to an exciting new MHS Links page:"
-
-- name: Add Club
-  url: http://goo.gl/forms/CMXlCvbRgm
-  size: 1-1
-  colour: red
-
 -
 
 - name: Compass
@@ -43,6 +36,11 @@
 
 - name: Student Leader Emails
   url: studentcontacts/
+  size: 1-1
+  colour: lightblue
+
+  - name: Club Contacts
+  url: clubs/
   size: 1-1
   colour: lightblue
 
