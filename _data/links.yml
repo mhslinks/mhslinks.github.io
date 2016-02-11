@@ -39,7 +39,7 @@
   size: 1-1
   colour: lightblue
 
-  - name: Club Contacts
+- name: Club Contacts
   url: clubs/
   size: 1-1
   colour: lightblue
