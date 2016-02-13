@@ -4,17 +4,17 @@
   studentemail: peter.drew@outlook.com.au
 
 - name: Business Club
-  teacher: 
+  teacher: Mr Marotta
   studentname: Aravind Vidyananthan
   studentemail: aravind.800000@gmail.com
 
 - name: Scrabble Club
-  teacher: 
+  teacher: Ms Grimwade
   studentname: Cameron Quach
   studentemail: cameron.quach@macrob.vic.edu.au
 
 - name: Theatre Sports
-  teacher: 
+  teacher: Ms Morgan
   studentname: Gregor Campbell
   studentemail: gregor_j_campbell@hotmail.com
 
@@ -39,7 +39,7 @@
   studentemail: jeevanjotsingh@hotmail.com
 
 - name: Global Issues Education (GIE)
-  teacher: 
+  teacher: Mr Dowling
   studentname: Maneesh Nandakumar
   studentemail: hema_maneesh@hotmail.com
 
@@ -49,12 +49,12 @@
   studentemail: vishrut@bigpond.com
 
 - name: Army Cadet Unit, MHS
-  teacher: 
+  teacher: Mr Huysing
   studentname: Jack Magee
   studentemail: jackmagee1999@gmail.com
 
 - name: Chinese Club, MHS
-  teacher: 
+  teacher: Mr Marotta, Ms Rachmat
   studentname: Charlie Yu
   studentemail: mhschineseclub2016@gmail.com 
 
@@ -74,12 +74,12 @@
   studentemail: Snghharman@yahoo.com.au
 
 - name: Q&A (Queers & Allies)
-  teacher: 
+  teacher: Ms Mill
   studentname: Zac Evangelides
   studentemail: z.evangelides@gmail.com
 
 - name: Chorale
-  teacher: 
+  teacher: Mr de Korte
   studentname: Amass Zheng
   studentemail: azheng1999@gmail.com
 
@@ -99,17 +99,17 @@
   studentemail: mhs.pool.snooker.club@gmail.com
 
 - name: The Sentinel
-  teacher: 
+  teacher: Mr Barham
   studentname: Abraham Polatkesen
   studentemail: abraham@minus18.org.au
 
 - name: Political Interest Group (PIG)
-  teacher: 
+  teacher: Mr Pask
   studentname: Arth Mishra
   studentemail: arthmishra@gmail.com
 
 - name: Volleyball
-  teacher: 
+  teacher: Mr de Korte
   studentname: Oliver Clayton
   studentemail: Cla0013@mhs.vic.edu.au
 
