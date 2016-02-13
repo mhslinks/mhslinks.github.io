@@ -1,5 +1,17 @@
 -
 
+- name: MHS Website
+  url: http://www.mhsviceduau.com/
+  size: 1-2
+  colour: blue
+
+- name: OBA
+  url: http://www.mhsoba.org.au/home
+  size: 1-2
+  colour: blue
+
+-
+
 - name: Webmail
   url: https://webmail.netspace.net.au/
   size: 1-2

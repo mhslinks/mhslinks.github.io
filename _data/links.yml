@@ -34,22 +34,3 @@
   url: clubs/
   size: 1-1
   colour: lightblue
-
--
-
-- name: MHS Website
-  url: http://www.mhsviceduau.com/
-  size: 1-2
-  colour: blue
-
-- name: OBA
-  url: http://www.mhsoba.org.au/home
-  size: 1-2
-  colour: blue
-
--
-
-- name: Feedback
-  url: http://goo.gl/forms/M9wpKCkuBq
-  size: 1-1
-  colour: red
