@@ -2,13 +2,13 @@
 
 - name: Webmail
   url: https://webmail.netspace.net.au/
-  size: 1-1
-  colour: darkblue
+  size: 1-2
+  colour: blue
 
 - name: Mail Setup
   url: http://pdrew.me/MHS/mailprofile.html
-  size: 1-1
-  colour: darkblue
+  size: 1-2
+  colour: blue
 
 - text: "Only works at MHS:"
 
