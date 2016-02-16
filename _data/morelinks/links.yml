@@ -1,14 +1,48 @@
 - name: MHS Website
   url: http://www.mhsviceduau.com/
   size: 1-1
-  colour: blue
-
-- name: Library
-  url: http://libguides.mhs.vic.edu.au/libraryhome
-  size: 1-1
-  colour: blue
+  colour: green
 
 - name: OBA
   url: http://www.mhsoba.org.au/home
   size: 1-1
+  colour: green
+
+- text: "Faculties"
+
+- name: English
+  url: http://resources.mhs.vic.edu.au/english/
+  size: 1-2
+  colour: blue
+
+- name: Physics
+  url: http://physicsatmhs.com/
+  size: 1-2
+  colour: blue
+
+- name: Philosophy
+  url: http://philosophy.atmhs.com/
+  size: 1-2
+  colour: blue
+
+- name: Library
+  url: http://libguides.mhs.vic.edu.au/libraryhome
+  size: 1-2
+  colour: blue
+
+- text: "Portal"
+
+- name: Maths
+  url: http://domain.mhs.vic.edu.au/Student/Faculties/Maths
+  size: 1-3
+  colour: blue
+
+- name: Chemistry
+  url: http://domain.mhs.vic.edu.au/Student/Faculties/Chemistry
+  size: 1-3
+  colour: blue
+
+- name: Biology
+  url: http://domain.mhs.vic.edu.au/Student/Faculties/Biology
+  size: 1-3
   colour: blue
