@@ -6,7 +6,7 @@ layout: default
     <a class="pure-button button-xlarge button-red" href="../"> &larr; back</a>
   {% for type in site.data.morelinks.linktypes %}
   <div class="pure-g{% if type.class %} {{ type.class }}{% endif %}">
-    {% for link in site.data[type.name] %}
+    {% for link in site.data.morelinks[type.name] %}
     {% if link.text %}
     <div class="pure-u-1-1 pure-u-md-1-1">{{ link.text }}</div>
     {% elsif link %}
