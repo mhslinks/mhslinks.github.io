@@ -2,3 +2,13 @@
   url: ../documents/belltimes.pdf
   size: 1-1
   colour: blue
+
+- name: Uniform
+  url: ../documents/uniform.pdf
+  size: 1-1
+  colour: blue
+
+- name: 40 Years On
+  url: ../documents/40yearson.pdf
+  size: 1-1
+  colour: blue
