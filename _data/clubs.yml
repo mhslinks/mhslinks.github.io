@@ -271,9 +271,10 @@
   studentemail: 
 
 - name: Diplomacy Club
-  teacher: 
-  studentname: 
+  teacher: Mr Sloan
+  studentname: Johnson Chen
   studentemail: 
+  studentname2: Vincent Hguyen
 
 - name: Fitness and Health
   teacher: 
