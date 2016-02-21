@@ -150,9 +150,10 @@
   studentemail: 
 
 - name: Cricket
-  teacher: 
-  studentname: 
+  teacher: Mr Fitzgerald
+  studentname: Raveen Perera, Aayat Khanna
   studentemail: 
+  comment: two in charge, email supplied by fb message
 
 - name: Cross Country
   teacher: 
@@ -175,8 +176,8 @@
   studentemail: 
 
 - name: Golf
-  teacher: 
-  studentname: 
+  teacher: Ms Doherty
+  studentname: Riley Pincus, Moss Ebeling
   studentemail: 
 
 - name: Hockey
@@ -220,8 +221,8 @@
   studentemail: 
 
 - name: Swimming
-  teacher: 
-  studentname: 
+  teacher: Ms Chandler
+  studentname: Moss Ebeling
   studentemail: 
 
 - name: Table Tennis
@@ -326,9 +327,9 @@
   studentemail: 
 
 - name: Students Alive
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Mr Ireson
+  studentname: Sean Chee
+  studentemail: che0141@mhs.vic.edu.au
 
 - name: SOFA
   teacher: 
@@ -340,8 +341,12 @@
   studentname: 
   studentemail: 
 
-
 - name: Ballroom Dancing
   teacher: Ms Tsilimidos, Mr Sharp
   studentname: Wilbert Wong
   studentemail: WWilbbertt@hotmail.com
+
+- name: Soccer
+  teacher: Mr Sette
+  studentname: Tom Robinson, Michael Kuzminski
+  studentemail: 
