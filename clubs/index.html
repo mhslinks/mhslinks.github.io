@@ -15,7 +15,7 @@ title: Club Contacts
                 {% assign clubs = site.data.clubs | sort: "name" %}
                 {% for club in clubs %}
                 <tr>
-                    <td><i>{{ club.name }}</i></td>
+                    <td><i>{% if club.clublink %}<a href="{{ club.clublink }}">{% endif %}{{ club.name }}{% if club.clublink %}</a>{% endif %}</i></td>
                     <td>{% if club.teacher %}{{ club.teacher }}{% else %}&nbsp;{% endif %}</td>
                     <td>{% if club.studentname %}{% if club.studentemail %}<a href="mailto:{{ club.studentemail }}">{% endif %}{{ club.studentname }}{% if club.studentemail %}</a>{% endif %}{% else %}&nbsp;{% endif %}</td>
                 </tr>
