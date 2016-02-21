@@ -157,9 +157,9 @@
   comment: two in charge, email supplied by fb message
 
 - name: Cross Country
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Dr Kemp
+  studentname: James Bernstein
+  studentemail: james.bernstein@hotmail.com.au
 
 - name: Cycling
   teacher: 
@@ -183,9 +183,9 @@
   studentname2: Moss Ebeling
 
 - name: Hockey
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Ms Carruthers
+  studentname: Sharar Kader
+  studentemail: shararkader2010@gmail.com
 
 - name: Lacrosse
   teacher: 
@@ -281,12 +281,13 @@
   studentname: 
   studentemail: 
 
-- name: Food Interest Group
-  teacher: 
-  studentname: 
-  studentemail: 
+- name: Food Interest Group (Yr 11 only)
+  teacher: Ms Petrie
+  studentname: Jaiden Daniel
+  studentname2: Justin Lineham
+  studentemail: jaiden_1999@ghotmail.com
 
-- name: Fun with Food
+- name: Fun with Food (yr 9&10)
   teacher: 
   studentname: 
   studentemail: 
@@ -308,9 +309,9 @@
   studentname2: Filip Stajanovic
 
 - name: Peace in the Middle East
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Mr Drew
+  studentname: Akarin Siriamphone
+  studentemail: akkysiri88@gmail.com
 
 - name: Philosophy Club
   teacher: 
@@ -323,7 +324,7 @@
   studentemail: 
 
 - name: Reptiles, Amphibians & Fish
-  teacher: 
+  teacher: Mr Cogo, Mr Watkins, Mr Slocombe
   studentname: 
   studentemail: 
 
