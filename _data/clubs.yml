@@ -151,8 +151,9 @@
 
 - name: Cricket
   teacher: Mr Fitzgerald
-  studentname: Raveen Perera, Aayat Khanna
+  studentname: Raveen Perera
   studentemail: 
+  studentname2: Aayat Khanna
   comment: two in charge, email supplied by fb message
 
 - name: Cross Country
@@ -177,8 +178,9 @@
 
 - name: Golf
   teacher: Ms Doherty
-  studentname: Riley Pincus, Moss Ebeling
+  studentname: Riley Pincus
   studentemail: 
+  studentname2: Moss Ebeling
 
 - name: Hockey
   teacher: 
@@ -348,5 +350,6 @@
 
 - name: Soccer
   teacher: Mr Sette
-  studentname: Tom Robinson, Michael Kuzminski
+  studentname: Tom Robinson
   studentemail: 
+  studentname2: Michael Kuzminski
