@@ -54,8 +54,6 @@
 - name: fitzgerald.michael.b
 - name: flanagan.william.f
 - name: fox.jodie.a
-- name: frencham.michael.m
-  notes: left MHS
 - name: fujino.masaya.m
 - name: ganella.saki.g
 - name: gardner.gayle.l
@@ -159,7 +157,6 @@
 - name: yeaman.annabelle.v
 - name: homewood.barry.s
 - name: roberts.michelle.m1
-  notes: may not have the 1
 - name: edge.richard.a
 - name: ferguson.alexandra.j
 - name: saunders.pamela.s
@@ -172,3 +169,4 @@
 - name: gazzana.pasquale.p
 - name: griffiths.dean.j
 - name: carroll.amanda.l
+- name: titmarsh.imogen.a
