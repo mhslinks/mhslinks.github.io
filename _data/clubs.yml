@@ -302,9 +302,10 @@
   studentemail: 
 
 - name: Maths Extension
-  teacher: 
-  studentname: 
+  teacher: Mr Ganella
+  studentname: Jackson Evans
   studentemail: 
+  studentname2: Filip Stajanovic
 
 - name: Peace in the Middle East
   teacher: 
@@ -327,9 +328,11 @@
   studentemail: 
 
 - name: Stage Crew
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Ms Titmarsh
+  studentname: Luc Bohn
+  studentname2: Mabrur Rahman
+  studentemail: mhscrewmanagers@gmail.com
+  studentemail2: mhscrewmanagers@gmail.com
 
 - name: Students Alive
   teacher: Mr Ireson
