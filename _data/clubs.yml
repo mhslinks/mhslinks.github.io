@@ -203,9 +203,9 @@
   studentemail: 
 
 - name: Rowing
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Mr McGann
+  studentname: Guy Velik
+  studentemail: guyvelik@bigpond.com
 
 - name: Rugby
   teacher: 
@@ -238,9 +238,10 @@
   studentemail: 
 
 - name: Waterpolo
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Ms Briggs
+  studentname: Lucas Fraccaro
+  studentemail: lucas.fraccaro@hotmail.com
+  studentname2: Chris Wong
 
 - name: Airforce Cadets
   teacher: Dr Kemp
@@ -266,9 +267,11 @@
   studentemail: 
 
 - name: Debating
-  teacher: 
-  studentname: 
-  studentemail: 
+  teacher: Mr Kaderle
+  studentname: Rohan Rajaram
+  studentemail: rajaram.rohan@gmail.com
+  studentname2: Bilal Ibrahim
+  studentemail2: ibrbilal@gmail.com
 
 - name: Diplomacy Club
   teacher: Mr Sloan
