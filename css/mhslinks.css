@@ -270,6 +270,11 @@ a:focus>.email
 	max-width: 400px;
 }
 
+.email-table-club td
+{
+	padding: 0.25em 0em;
+}
+
 @media screen and (max-width: 767px)
 {
 	.links-body {
