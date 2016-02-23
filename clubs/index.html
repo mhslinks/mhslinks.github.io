@@ -8,14 +8,14 @@ title: Club Contacts
     <div class="small"><span style="line-height: 1.4;">Please contact an IT Executive to update club information on this page.</span></div>
     <br>
     <div class="small">
-        <table style="max-width: 600px; margin: 0 auto;">
+        <table class="email-table email-table-club">
             <tbody>
                 {% assign clubs = site.data.clubs | sort: "name" %}
                 {% for club in clubs %}
                 <tr>
-                    <td valign="top"><i>{% if club.clublink %}<a href="{{ club.clublink }}">{% endif %}{{ club.name }}{% if club.clublink %}</a>{% endif %}</i></td>
-                    <td valign="top">{% if club.teacher %}{{ club.teacher }}{% else %}&nbsp;{% endif %}</td>
-                    <td valign="top">{% if club.studentname %}{% if club.studentemail %}<a href="mailto:{{ club.studentemail }}">{% endif %}{{ club.studentname }}{% if club.studentemail %}</a>{% endif %}<br>
+                    <td><i>{% if club.clublink %}<a href="{{ club.clublink }}">{% endif %}{{ club.name }}{% if club.clublink %}</a>{% endif %}</i></td>
+                    <td>{% if club.teacher %}{{ club.teacher }}{% else %}&nbsp;{% endif %}</td>
+                    <td>{% if club.studentname %}{% if club.studentemail %}<a href="mailto:{{ club.studentemail }}">{% endif %}{{ club.studentname }}{% if club.studentemail %}</a>{% endif %}<br>
                         {% if club.studentname2 %}{% if club.studentemail2 %}<a href="mailto:{{ club.studentemail2 }}">{% endif %}{{ club.studentname2 }}{% if club.studentemail2 %}</a>{% endif %}{% endif %}{% else %}&nbsp;{% endif %}</td>
                 </tr>
                 {% endfor %}

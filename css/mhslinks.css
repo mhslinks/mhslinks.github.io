@@ -244,6 +244,27 @@ a:focus>.email
 	font-size: 70%;
 }
 
+
+.email-table
+{
+	margin: 0 auto;
+}
+
+.email-table td
+{
+	vertical-align: top;
+}
+
+.email-table-club
+{
+	max-width: 600px;
+}
+
+.email-table-leader
+{
+	max-width: 400px;
+}
+
 @media screen and (max-width: 767px)
 {
 	.links-body {
