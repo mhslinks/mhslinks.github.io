@@ -255,6 +255,11 @@ a:focus>.email
 	vertical-align: top;
 }
 
+.email-table th
+{
+	padding-top: 1em;
+}
+
 .email-table-club
 {
 	max-width: 600px;
