@@ -1,360 +1,333 @@
 - name: Robotics
   clublink: http://mhscsrclub.github.io/
   teacher: Mr Drew
-  studentname: Peter Drew
-  studentemail: peter.drew@outlook.com.au
+  students:
+    - name: Peter Drew
+      email: peter.drew@outlook.com.au
 
 - name: Business Club
   teacher: Mr Marotta
-  studentname: Aravind Vidyananthan
-  studentemail: aravind.800000@gmail.com
+  students:
+    - name: Aravind Vidyananthan
+      email: aravind.800000@gmail.com
 
 - name: Scrabble Club
   teacher: Ms Grimwade
-  studentname: Cameron Quach
-  studentemail: cameron.quach@macrob.vic.edu.au
+  students:
+    - name: Cameron Quach
+      email: cameron.quach@macrob.vic.edu.au
 
 - name: Theatre Sports
   teacher: Ms Morgan
-  studentname: Gregor Campbell
-  studentemail: gregor_j_campbell@hotmail.com
+  students:
+    - name: Gregor Campbell
+      email: gregor_j_campbell@hotmail.com
 
 - name: Baka Anime
   teacher: Dr Kemp
-  studentname: Kevin Wong
-  studentemail: Kevappyxd@hotmail.com
+  students:
+    - name: Kevin Wong
+      email: Kevappyxd@hotmail.com
 
 - name: Soul Power (Breakdance)
   teacher: Dr Holcombe
-  studentname: Harry Pham
-  studentemail: harryhpham.99@gmail.com
+  students:
+    - name: Harry Pham
+      email: harryhpham.99@gmail.com
 
 - name: Film Crew
   teacher: Mr Morton
-  studentname: Kalana Vithana
-  studentemail: kalanavithana1@gmail.com
+  students:
+    - name: Kalana Vithana
+      email: kalanavithana1@gmail.com
 
 - name: Economics Club
   teacher: Mr Kaderle
-  studentname: Jeevanjot Singh
-  studentemail: jeevanjotsingh@hotmail.com
+  students:
+    - name: Jeevanjot Singh
+      email: jeevanjotsingh@hotmail.com
 
 - name: Global Issues Education (GIE)
   teacher: Mr Dowling
-  studentname: Maneesh Nandakumar
-  studentemail: hema_maneesh@hotmail.com
+  students:
+    - name: Maneesh Nandakumar
+      email: hema_maneesh@hotmail.com
 
 - name: Law Society, MHS
   teacher: Mr Dowling
-  studentname: Vishrut Pande
-  studentemail: vishrut@bigpond.com
+  students:
+    - name: Vishrut Pande
+      email: vishrut@bigpond.com
 
 - name: Army Cadet Unit, MHS
   teacher: Mr Huysing
-  studentname: Jack Magee
-  studentemail: jackmagee1999@gmail.com
+  students:
+    - name: Jack Magee
+      email: jackmagee1999@gmail.com
 
 - name: Chinese Club, MHS
   teacher: Mr Marotta, Ms Rachmat
-  studentname: Charlie Yu
-  studentemail: mhschineseclub2016@gmail.com 
+  students:
+    - name: Charlie Yu
+      email: mhschineseclub2016@gmail.com
 
 - name: Maths Games
   teacher: Mr Flanagan
-  studentname: Arman Riazati
-  studentemail: Armanriazati.ar@gmail.com
+  students:
+    - name: Arman Riazati
+      email: Armanriazati.ar@gmail.com
 
-- name: Philanthropy Club 
+- name: Philanthropy Club
   teacher: Ms Berlin
-  studentname: Rahul Sathish
-  studentemail: rahul.sathish@icloud.com
+  students:
+    - name: Rahul Sathish
+      email: rahul.sathish@icloud.com
 
 - name: Rock Club
   teacher: Mr Brown
-  studentname: Harmanjit Singh
-  studentemail: Snghharman@yahoo.com.au
+  students:
+    - name: Harmanjit Singh
+      email: Snghharman@yahoo.com.au
 
 - name: Q&A (Queers & Allies)
   teacher: Ms Mill
-  studentname: Zac Evangelides
-  studentemail: z.evangelides@gmail.com
+  students:
+    - name: Zac Evangelides
+      email: z.evangelides@gmail.com
 
 - name: Chorale
   teacher: Mr de Korte
-  studentname: Amass Zheng
-  studentemail: azheng1999@gmail.com
+  students:
+    - name: Amass Zheng
+      email: azheng1999@gmail.com
 
 - name: Science Club
-  teacher: Mr Sette 
-  studentname: Hoyun Lee
-  studentemail: hoyunlee2@gmail.com
+  teacher: Mr Sette
+  students:
+    - name: Hoyun Lee
+      email: hoyunlee2@gmail.com
 
 - name: PC Gaming Alliance, MHS
   teacher: Mr Drew
-  studentname: Peter Vu
-  studentemail: hotnoodlesgg@gmail.com
+  students:
+    - name: Peter Vu
+      email: hotnoodlesgg@gmail.com
 
 - name: Pool and Snooker Club, MHS
   teacher: Mr Bedier
-  studentname: Sheil Bhatia
-  studentemail: mhs.pool.snooker.club@gmail.com
+  students:
+    - name: Sheil Bhatia
+      email: mhs.pool.snooker.club@gmail.com
 
 - name: The Sentinel
   teacher: Mr Barham
-  studentname: Abraham Polatkesen
-  studentemail: abraham@minus18.org.au
+  students:
+    - name: Abraham Polatkesen
+      email: abraham@minus18.org.au
 
 - name: Political Interest Group (PIG)
   teacher: Mr Pask
-  studentname: Arth Mishra
-  studentemail: arthmishra@gmail.com
+  students:
+    - name: Arth Mishra
+      email: arthmishra@gmail.com
 
 - name: Volleyball
   teacher: Mr de Korte
-  studentname: Oliver Clayton
-  studentemail: Cla0013@mhs.vic.edu.au
+  students:
+    - name: Oliver Clayton
+      email: Cla0013@mhs.vic.edu.au
 
 - name: Unicorn Photography
   teacher: Ms Watterson
-  studentname: Chathura Perera
-  studentemail: chathuraperera101@gmail.com
+  students:
+    - name: Chathura Perera
+      email: chathuraperera101@gmail.com
 
 - name: Environmental Action Group (EAG)
   teacher: Ms Bruce
-  studentname: Ryan Salim
-  studentemail: r.martinsalim@gmail.com
+  students:
+    - name: Ryan Salim
+      email: r.martinsalim@gmail.com
 
 - name: Indonesian Club
   teacher: Ms Rachmat
-  studentname: Ryan Salim
-  studentemail: r.martinsalim@gmail.com
+  students:
+    - name: Ryan Salim
+      email: r.martinsalim@gmail.com
 
 - name: SWAG
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Athletics
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Badminton
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Baseball
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Cricket
   teacher: Mr Fitzgerald
-  studentname: Raveen Perera
-  studentemail: 
-  studentname2: Aayat Khanna
+  students:
+    - name: Raveen Perera
+    - name: Aayat Khanna
   comment: two in charge, email supplied by fb message
 
 - name: Cross Country
   teacher: Dr Kemp
-  studentname: James Bernstein
-  studentemail: james.bernstein@hotmail.com.au
+  students:
+    - name: James Bernstein
+      email: james.bernstein@hotmail.com.au
 
 - name: Cycling
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Fencing
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Football
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Golf
   teacher: Ms Doherty
-  studentname: Riley Pincus
-  studentemail: 
-  studentname2: Moss Ebeling
+  students:
+    - name: Riley Pincus
+    - name: Moss Ebeling
 
 - name: Hockey
   teacher: Ms Carruthers
-  studentname: Sharar Kader
-  studentemail: shararkader2010@gmail.com
+  students:
+    - name: Sharar Kader
+      email: shararkader2010@gmail.com
 
 - name: Lacrosse
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Netball
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Orienteering
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Rowing
   teacher: Mr McGann
-  studentname: Guy Velik
-  studentemail: guyvelik@bigpond.com
+  students:
+    - name: Guy Velik
+      email: guyvelik@bigpond.com
 
 - name: Rugby
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Snow Sports
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Squash
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Swimming
   teacher: Ms Chandler
-  studentname: Moss Ebeling
-  studentemail: 
+  students:
+    - name: Moss Ebeling
 
 - name: Table Tennis
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Tennis
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Waterpolo
   teacher: Ms Briggs
-  studentname: Lucas Fraccaro
-  studentemail: lucas.fraccaro@hotmail.com
-  studentname2: Chris Wong
+  students:
+    - name: Lucas Fraccaro
+      email: lucas.fraccaro@hotmail.com
+    - name: Chris Wong
 
 - name: Airforce Cadets
   teacher: Dr Kemp
-  studentname: Cameron Foyster
-  studentemail: cameron.foyster@aafc.org.au
-  studentname2: Haren Weerasiri
-  studentemail2: haren.weerasiri@aafc.org.au
+  students:
+    - name: Cameron Foyster
+      email: cameron.foyster@aafc.org.au
+    - name: Haren Weerasiri
+      email: haren.weerasiri@aafc.org.au
 
 - name: Book Club
   teacher: Ms Buckland
-  studentname: 
-  studentemail: 
 
 - name: Chess Club
   teacher: Mr Dovey
-  studentname: Ari Dale
-  studentemail: 
+  students:
+    - name: Ari Dale
 
 - name: Writing Interest Group
   clublink: https://unicornexpressmhs.wordpress.com/
   teacher: Ms Sheko
-  studentname: Ashane De Silva
-  studentemail: 
+  students:
+    - name: Ashane De Silva
 
 - name: Debating
   teacher: Mr Kaderle
-  studentname: Rohan Rajaram
-  studentemail: rajaram.rohan@gmail.com
-  studentname2: Bilal Ibrahim
-  studentemail2: ibrbilal@gmail.com
+  students:
+    - name: Rohan Rajaram
+      email: rajaram.rohan@gmail.com
+    - name: Bilal Ibrahim
+      email: ibrbilal@gmail.com
 
 - name: Diplomacy Club
   teacher: Mr Sloan
-  studentname: Johnson Chen
-  studentemail: 
-  studentname2: Vincent Nguyen
+  students:
+    - name: Johnson Chen
+    - name: Vincent Nguyen
 
 - name: Fitness and Health
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Food Interest Group (Yr 11 only)
   teacher: Ms Petrie
-  studentname: Jaiden Daniel
-  studentname2: Justin Lineham
-  studentemail: jaiden_1999@ghotmail.com
+  students:
+    - name: Jaiden Daniel
+    - name: Justin Lineham
+      email: jaiden_1999@ghotmail.com
 
 - name: Fun with Food (yr 9&10)
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Heritage Society
   teacher: Mr Ludowyke
-  studentname: Tony Xie
-  studentemail: 
+  students:
+    - name: Tony Xie
 
 - name: Library Assistants
   teacher: Ms Saunders
-  studentname: Garwah Tam
-  studentemail: 
+  students:
+    - name: Garwah Tam
 
 - name: Maths Extension
   teacher: Mr Ganella
-  studentname: Jackson Evans
-  studentemail: 
-  studentname2: Filip Stajanovic
+  students:
+    - name: Jackson Evans
+    - name: Filip Stajanovic
 
 - name: Peace in the Middle East
   teacher: Mr Drew
-  studentname: Akarin Siriamphone
-  studentemail: akkysiri88@gmail.com
+  students:
+    - name: Akarin Siriamphone
+      email: akkysiri88@gmail.com
 
 - name: Philosophy Club
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Public Speaking
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Reptiles, Amphibians & Fish
   teacher: Mr Cogo, Mr Watkins, Mr Slocombe
-  studentname: 
-  studentemail: 
 
 - name: Stage Crew
   teacher: Ms Titmarsh
-  studentname: Luc Bohn
-  studentname2: Mabrur Rahman
-  studentemail: mhscrewmanagers@gmail.com
-  studentemail2: mhscrewmanagers@gmail.com
+  students:
+    - name: Luc Bohn
+      email: mhscrewmanagers@gmail.com
+    - name: Mabrur Rahman
+      email: mhscrewmanagers@gmail.com
 
 - name: Students Alive
   teacher: Mr Ireson
-  studentname: Sean Chee
-  studentemail: che0141@mhs.vic.edu.au
+  students:
+    - name: Sean Chee
+      email: che0141@mhs.vic.edu.au
 
 - name: White Ribbon
-  teacher: 
-  studentname: 
-  studentemail: 
 
 - name: Ballroom Dancing
   teacher: Ms Tsilimidos, Mr Sharp
-  studentname: Wilbert Wong
-  studentemail: WWilbbertt@hotmail.com
+  students:
+    - name: Wilbert Wong
+      email: WWilbbertt@hotmail.com
 
 - name: Soccer
   teacher: Mr Sette
-  studentname: Tom Robinson
-  studentemail: 
-  studentname2: Michael Kuzminski
+  students:
+    - name: Tom Robinson
+    - name: Michael Kuzminski
