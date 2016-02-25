@@ -7,4 +7,20 @@
 ga('create', 'UA-74291620-1', 'auto');
 ga('send', 'pageview');
 
+function trackOutboundLink(url) {
+    return function () {
+        ga('send', 'event', 'outbound', 'click', url, {
+            'transport': 'beacon',
+            'hitCallback': function(){document.location = url;}
+        });
+        return false;
+    }
+}
+
+
+var links = document.getElementsByTagName("a");
+var i = links.length; while (i--) {
+    links[i].onclick = trackOutboundLink(links[i].href);
+}
+
 </script>
