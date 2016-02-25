@@ -16,7 +16,7 @@
 -
 
 - name: Teacher Emails
-  url: emails/
+  url: teacheremails/
   size: 1-1
   colour: lightblue
 
