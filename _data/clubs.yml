@@ -243,6 +243,8 @@
   teacher: Mr Dovey
   students:
     - name: Ari Dale
+      email: aridale97@gmail.com
+    - name: Douglas Dias
 
 - name: Writing Interest Group
   clublink: https://unicornexpressmhs.wordpress.com/
