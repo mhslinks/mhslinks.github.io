@@ -13,6 +13,11 @@
   size: 1-1
   colour: green
 
+- name: Faculty Resources
+  url: faculties/
+  size: 1-1
+  colour: green
+
 -
 
 - name: Teacher Emails
