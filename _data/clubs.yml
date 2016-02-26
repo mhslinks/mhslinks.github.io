@@ -333,3 +333,10 @@
   students:
     - name: Tom Robinson
     - name: Michael Kuzminski
+
+- name: LINK (Liberty in North Korea)
+  teacher: Dr Holcombe
+  students:
+    - name: Jemin Yoon
+	  email: minwoo265@hotmail.com
+
