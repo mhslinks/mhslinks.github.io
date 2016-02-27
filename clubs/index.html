@@ -14,7 +14,7 @@ title: Club Contacts
                 {% for club in clubs %}
                 <tr>
                     <td><i>{% if club.clublink %}<a href="{{ club.clublink }}">{% endif %}{{ club.name }}{% if club.clublink %}</a>{% endif %}</i></td>
-                    <td>{{ club.teacher }}</td>
+                    <td>{% if club.teacher %}{{ club.teacher }}{% endif %}</td>
                     <td>
                         {% for student in club.students %}
                         {% if student.email %}<a href="mailto:{{ student.email }}">{% endif %}{{ student.name }}{% if student.email %}</a>{% endif %}<br>
