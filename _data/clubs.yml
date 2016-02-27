@@ -87,7 +87,7 @@
   teacher: Mr Brown
   students:
     - name: Harmanjit Singh
-      email: Snghharman@yahoo.com.au
+      email: snghharman@yahoo.com.au
 
 - name: Q&A (Queers & Allies)
   teacher: Ms Mill
@@ -185,6 +185,9 @@
       email: james.bernstein@hotmail.com.au
 
 - name: Cycling
+  teacher: Mr Dovey
+  students:
+    - name: Kai Flaherty
 
 - name: Fencing
 
@@ -205,6 +208,12 @@
       email: shararkader2010@gmail.com
 
 - name: Lacrosse
+  teacher: Mr Flanagan
+  students:
+    - neme: Harmanjit Singh
+	  email: snghharman@yahoo.com.au
+	- name: Kevin Lam
+	  email: KlamKevin@hotmail.com
 
 - name: Netball
 
@@ -280,6 +289,7 @@
     - name: Vincent Nguyen
 
 - name: Fitness and Health
+  teacher: Mr Flanagan
 
 - name: Food Interest Group (Yr 11 only)
   teacher: Ms Petrie
