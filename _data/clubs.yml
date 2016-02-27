@@ -156,6 +156,11 @@
       email: r.martinsalim@gmail.com
 
 - name: SWAG
+  teacher: Ms Mills
+  students:
+    - name: Isaac Rajakariar
+	- name: Jaiden Daniel
+	- name: Aayat Khanna
 
 - name: Athletics
   teacher: Mr Bissetto
@@ -210,7 +215,7 @@
 - name: Lacrosse
   teacher: Mr Flanagan
   students:
-    - neme: Harmanjit Singh
+    - name: Harmanjit Singh
 	  email: snghharman@yahoo.com.au
 	- name: Kevin Lam
 	  email: KlamKevin@hotmail.com
