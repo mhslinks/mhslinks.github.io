@@ -159,8 +159,8 @@
   teacher: Ms Mills
   students:
     - name: Isaac Rajakariar
-	- name: Jaiden Daniel
-	- name: Aayat Khanna
+    - name: Jaiden Daniel
+    - name: Aayat Khanna
 
 - name: Athletics
   teacher: Mr Bissetto
@@ -180,8 +180,8 @@
   teacher: Mr Fitzgerald
   students:
     - name: Raveen Perera
+      email: raveenperera36@gmail.com
     - name: Aayat Khanna
-  comment: two in charge, email supplied by fb message
 
 - name: Cross Country
   teacher: Dr Kemp
@@ -216,9 +216,9 @@
   teacher: Mr Flanagan
   students:
     - name: Harmanjit Singh
-	  email: snghharman@yahoo.com.au
-	- name: Kevin Lam
-	  email: KlamKevin@hotmail.com
+      email: snghharman@yahoo.com.au
+    - name: Kevin Lam
+      email: KlamKevin@hotmail.com
 
 - name: Netball
 
