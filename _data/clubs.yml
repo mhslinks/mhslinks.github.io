@@ -162,6 +162,10 @@
 - name: Badminton
 
 - name: Baseball
+  teacher: Mr Ganella
+  students:
+    - name: Lucas Fraccaro
+      email: lucas.fraccaro@hotmail.com
 
 - name: Cricket
   teacher: Mr Fitzgerald
@@ -220,6 +224,9 @@
     - name: Moss Ebeling
 
 - name: Table Tennis
+  teacher: Ms Muholland
+  student:
+	- name: Dominic Huang
 
 - name: Tennis
 
