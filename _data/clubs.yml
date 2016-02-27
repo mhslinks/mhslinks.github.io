@@ -225,8 +225,8 @@
 
 - name: Table Tennis
   teacher: Ms Muholland
-  student:
-	- name: Dominic Huang
+  students:
+    - name: Dominic Huang
 
 - name: Tennis
 
