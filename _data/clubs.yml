@@ -160,8 +160,8 @@
 - name: Athletics
   teacher: Mr Bissetto
   students:
-	- name: James Bernstein
-	  email: james.bernstein@hotmail.com.au
+    - name: James Bernstein
+      email: james.bernstein@hotmail.com.au
 
 - name: Badminton
 
@@ -316,7 +316,7 @@
 
 - name: Public Speaking
   students:
-	- name: Yath Karun
+    - name: Yath Karun
 
 - name: Reptiles, Amphibians & Fish
   teacher: Mr Cogo, Mr Watkins, Mr Slocombe
