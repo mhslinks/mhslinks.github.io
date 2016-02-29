@@ -231,6 +231,9 @@
       email: guyvelik@bigpond.com
 
 - name: Rugby
+  teacher: AJ Masefau
+  students:
+    - student: Abraham Luo
 
 - name: Snow Sports
 
@@ -351,6 +354,9 @@
       email: che0141@mhs.vic.edu.au
 
 - name: White Ribbon
+  teacher: AJ Masefau
+  students:
+    - student: Abraham Luo
 
 - name: Ballroom Dancing
   teacher: Ms Tsilimidos, Mr Sharp
