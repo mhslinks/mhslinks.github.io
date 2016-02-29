@@ -233,7 +233,7 @@
 - name: Rugby
   teacher: AJ Masefau
   students:
-    - student: Abraham Luo
+    - name: Abraham Luo
 
 - name: Snow Sports
 
@@ -356,7 +356,7 @@
 - name: White Ribbon
   teacher: AJ Masefau
   students:
-    - student: Abraham Luo
+    - name: Abraham Luo
 
 - name: Ballroom Dancing
   teacher: Ms Tsilimidos, Mr Sharp
