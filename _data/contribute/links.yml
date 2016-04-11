@@ -13,6 +13,6 @@
 - text: "Beta:"
 
 - name: Resources
-  url: resources/
+  url: ../resources/
   size: 1-1
   colour: blue
