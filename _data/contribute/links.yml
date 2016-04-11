@@ -7,3 +7,12 @@
   url: http://goo.gl/forms/M9wpKCkuBq
   size: 1-1
   colour: blue
+
+-
+
+- text: "Beta:"
+
+- name: Resources
+  url: resources/
+  size: 1-1
+  colour: blue
