@@ -15,9 +15,9 @@
 - name: Resources
   url: ../resources/
   size: 1-1
-  colour: red
+  colour: lightblue
 
 - name: Feedback Beta
-  url: feedbackEmbed/
+  url: feedbackEmbed.html
   size: 1-1
-  colour: red
+  colour: lightblue
