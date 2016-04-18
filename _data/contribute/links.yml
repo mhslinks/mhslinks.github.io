@@ -16,3 +16,8 @@
   url: /resources/
   size: 1-1
   colour: orange
+
+- name: Senior Social Contact Details
+  url: /seniorSocial/
+  size: 1-1
+  colour: orange
