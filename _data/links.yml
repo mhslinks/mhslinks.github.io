@@ -36,3 +36,10 @@
   url: morelinks/
   size: 1-1
   colour: blue
+
+-
+
+- name: Junior Social
+  url: juniorsocial/
+  size: 1-1
+  colour: orange
