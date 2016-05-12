@@ -1,0 +1,10 @@
+html {
+    margin: 10px;
+}
+
+body {
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    font-size: 19px;
+}
