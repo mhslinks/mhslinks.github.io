@@ -27,7 +27,7 @@
   size: 1-2
   colour: darkblue
 
-- name: Mail Forward
+- name: Mail Forward (old)
   url: http://admin.vicone.netspace.net.au/
   size: 1-2
   colour: darkblue
