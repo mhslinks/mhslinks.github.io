@@ -8,12 +8,22 @@
   size: 1-1
   colour: blue
 
-- name: 40 Years On
-  url: ../documents/40yearson.pdf
+- name: Statement of Citizenship
+  url: ../documents/statement-of-citizenship.pdf
   size: 1-1
   colour: blue
 
-- name: 2015 IT On-boarding Guide
-  url: http://media.wix.com/ugd/c76c88_d398c15d0f8f4da0a1f59b72f2107d6b.pdf
+- name: MHS Diploma Handbook
+  url: ../documents/mhs-diploma-handbook-2016.pdf
   size: 1-1
   colour: blue
+
+- name: 40 Years On
+  url: ../documents/40yearson.pdf
+  size: 1-1
+  colour: orange
+
+- name: Honour The Work
+  url: ../documents/honour-the-work.pdf
+  size: 1-1
+  colour: orange
