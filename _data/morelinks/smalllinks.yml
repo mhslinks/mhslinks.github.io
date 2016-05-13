@@ -1,7 +1,7 @@
 -
 
 - name: Webmail
-  url: https://webmail.mhs.vic.edu.au
+  url: http://webmail.mhs.vic.edu.au
   size: 1-2
   colour: blue
 
@@ -14,8 +14,8 @@
 
 - name: Web Quota
   url: https://auth.localnetwork.zone:60091/statspopup
-  size: 1-2
   colour: darkblue
+  size: 1-2
 
 - name: Usage Stats
   url: http://auth.netbox/portal/
