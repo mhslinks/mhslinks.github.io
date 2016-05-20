@@ -39,15 +39,8 @@
 
 -
 
-- name: Junior Social
-  url: juniorsocial/
-  size: 1-1
-  colour: orange
-
-- 
-
 - name: 2016 Mid-year Exam Times
   url: documents/2016-mid-exam.pdf
   size: 1-1
-  colour: darkblue
+  colour: blue
 
