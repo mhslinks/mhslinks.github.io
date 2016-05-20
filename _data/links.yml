@@ -39,8 +39,8 @@
 
 -
 
-- name: 2016 Mid-year Exam Times
+- name: Exam Times
   url: documents/2016-mid-exam.pdf
   size: 1-1
-  colour: blue
+  colour: orange
 
