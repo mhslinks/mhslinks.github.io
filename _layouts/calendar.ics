@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MHS//MHS Links//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:{{ page.description }}
+X-WR-CALNAME:{{ page.title }}
+{% for event in site.data.calendars[page.dataname] %}
+{% if event.minutes %}{% assign eventseconds = event.minutes | times: 60 %}{% assign eventend = event.start | date: "%s" | plus: eventseconds %}{% elsif event.end %}{% assign eventend = event.end %}{% endif %}
+BEGIN:VEVENT
+SUMMARY:{{ event.summary }}
+DTSTART;VALUE=DATE-TIME:{{ event.start | date: "%Y%m%dT%H%M%S" }}
+DTEND;VALUE=DATE-TIME:{{ eventend | date: "%Y%m%dT%H%M%S" }}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
