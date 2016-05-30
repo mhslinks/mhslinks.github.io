@@ -44,3 +44,7 @@
   size: 1-1
   colour: orange
 
+- name: Exam Information
+  url: documents/2016-exam-info.pdf
+  size: 1-1
+  colour: orange
