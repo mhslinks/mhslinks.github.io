@@ -39,8 +39,8 @@
 
 -
 
-- name: Exam Times
-  url: documents/2016-mid-exam.pdf
+- name: Sync Exam Times
+  url: exams/
   size: 1-1
   colour: orange
 
