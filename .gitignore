@@ -1,14 +1,6 @@
-# gitignore for Theos
-
-*.deb
+_site
+.sass-cache
+.jekyll-metadata
 _/
-theos/
-theos
-.theos/*
-!.theos/last_package
-!.theos/packages
-obj/
-*/obj/
-obj
 .DS_Store
 
