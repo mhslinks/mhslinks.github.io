@@ -13,6 +13,19 @@ description: A place to add timetables to your mobile device.
   <div class="small"><span style="line-height: 1.4;">If the timetables are not correct, please contact an IT Executive.</span></div>
   <div class="small"><span style="line-height: 1.4;">Never bring your phone into an exam. Leave it in your locker.</span></div>
   <br>
+  <div>
+    <div>Create your own customised timetable:<div>
+    <div id="customise"></div>
+    <div>
+      <button class="pure-button button-xlarge button-green" id="generate-button">Generate calendar</button>
+    </div>
+    <div>
+      <a class="pure-button button-xlarge button-green" id="download-button" style="visibility:hidden">Download calendar</a>
+    </div>
+  </div>
+  <br>
+  <div>Alternatively, download a pre-made timetable file:</div>
+  <br>
   <div class="small">
   <div><a class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y9.ics">Year 9 Exams</a></div>
   <br>
@@ -29,3 +42,91 @@ description: A place to add timetables to your mobile device.
   <br>
   <div><a class="pure-button button-xlarge button-red" href="/documents/2016-exam-times.pdf">Exam timetable (PDF)</a></div>
 </div>
+<script>
+var timetables = {
+  {% for yearlevel in site.data.yearlevels %}
+  "{{ yearlevel.name }}": [
+    {% assign events = site.data.calendars[yearlevel.dataname] | sort: "summary" %}
+    {% for event in events %}
+    {% if event.minutes %}{% assign eventseconds = event.minutes | times: 60 %}{% assign eventend = event.start | date: "%s" | plus: eventseconds %}{% elsif event.end %}{% assign eventend = event.end %}{% endif %}
+    {% assign eventsummary = event.summary | replace: "\\", "\\\\" | replace: "\"", "\\\"" %}
+    {
+      "summary": "{{ eventsummary }}",
+      "start": "{{ event.start | date: "%Y%m%dT%H%M%S" }}",
+      "end": "{{ eventend | date: "%Y%m%dT%H%M%S" }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+};
+
+var header = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//MHS//MHS Links//\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nX-WR-CALDESC:MHS Exams\nX-WR-CALNAME:Customised MHS Exam Schedule";
+var footer = "END:VCALENDAR";
+
+function eventToIcal(event) {
+  return "BEGIN:VEVENT\nSUMMARY:" + event.summary + "\nDTSTART;VALUE=DATE-TIME:" + event.start + "\nDTEND;VALUE=DATE-TIME:" + event.end + "\nEND:VEVENT";
+}
+
+// http://stackoverflow.com/a/30832210
+function download(text, name, type) {
+  var a = document.getElementById("download-button");
+  var file = new Blob([text], { type: type });
+  a.href = URL.createObjectURL(file);
+  a.download = name;
+  a.style.visibility = "visible";
+}
+
+function createEventElement(event, yearLevel, index) {
+  var eventWrapper = document.createElement("div");
+  var eventElement = document.createElement("label");
+  var checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.dataset.yearLevel = yearLevel;
+  checkbox.dataset.index = index;
+  checkbox.classList.add("event-checkbox")
+  eventElement.appendChild(checkbox);
+  eventElement.appendChild(document.createTextNode(" " + event.summary));
+  eventWrapper.appendChild(eventElement);
+  return eventWrapper;
+}
+
+function createYearElement(yearLevel) {
+  console.log(yearLevel);
+  var yearElement = document.createElement("details");
+  var summary = document.createElement("summary");
+  summary.innerText = yearLevel;
+  yearElement.appendChild(summary);
+  console.log(yearLevel);
+  for (var i = 0; i < timetables[yearLevel].length; i++) {
+    var eventElement = createEventElement(timetables[yearLevel][i], yearLevel, i);
+    yearElement.appendChild(eventElement);
+  }
+  return yearElement;
+}
+
+function init() {
+  var customiseElement = document.getElementById("customise");
+  var yearLevels = Object.keys(timetables);
+  for (var i = 0; i < yearLevels.length; i++) {
+    var yearElement = createYearElement(yearLevels[i]);
+    customiseElement.appendChild(yearElement);
+  }
+}
+
+function generate() {
+  var checkboxes = document.getElementsByClassName("event-checkbox");
+  var iCalendar = header + "\n";
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].checked) {
+      var yearLevel = checkboxes[i].dataset.yearLevel;
+      var index = Number(checkboxes[i].dataset.index);
+      iCalendar += eventToIcal(timetables[yearLevel][index]) + "\n";
+    }
+  }
+  iCalendar += footer + "\n";
+  download(iCalendar, "MHSExams.ics", "text/calendar");
+}
+
+document.getElementById("generate-button").addEventListener("click", generate);
+document.addEventListener("DOMContentLoaded", init);
+</script>
