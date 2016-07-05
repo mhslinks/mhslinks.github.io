@@ -3,6 +3,11 @@
   size: 1-1
   colour: green
 
+- name: Office 365
+  url: https://login.microsoftonline.com
+  size: 1-1
+  colour: green
+
 - name: MHS Connect
   url: http://connect.mhs.vic.edu.au/
   size: 1-1
