@@ -1,6 +1,9 @@
+---
+layout: default
+title: Vivi Windows
+---
 
-
-# Vivi Installation - Windows : 
+# Vivi Installation - Windows
 
 Download vivi from : http://get.vivi.io/
 
@@ -57,7 +60,7 @@ Vivi will take a moment to connect.
 
 [goodName]: http://lodash.xyz/i/9ut6v.png
 
-[badName]: http://lodash.xyz/i/eurn3.png
+[badName]: http://lodash.xyz/i/7mm2f.png
 
 [installerScreen]: http://lodash.xyz/i/98t3f.png
 

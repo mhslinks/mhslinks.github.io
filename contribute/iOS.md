@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Vivi iOS
+---
 
 # Vivi Installation - iOS
 
@@ -37,7 +40,7 @@ Note : Do not switch apps before airplaying. Doing so will break vivi.
 
 [app]: http://i.imgur.com/27vSYVP.jpg
 [goodName]: http://i.imgur.com/DNCkoq6.jpg
-[badName]: http://lodash.xyz/i/zuub1.jpg
+[badName]: http://i.imgur.com/DNCkoq6.jpg
 [login]: http://i.imgur.com/QpB0wPe.jpg
 
 [room]: http://i.imgur.com/FI3RDmo.jpg
