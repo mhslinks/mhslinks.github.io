@@ -5,6 +5,18 @@
   size: 1-1
   colour: orange
 
+- text: "Vivi instructions:"
+
+- name: Windows
+  url: vividocs/Win
+  size: 1-2
+  colour: orange
+
+- name: iOS
+  url: vividocs/iOS
+  size: 1-2
+  colour: orange
+
 -
 
 - name: Compass
