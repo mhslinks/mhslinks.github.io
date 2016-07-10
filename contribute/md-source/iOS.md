@@ -25,7 +25,7 @@ When asked for your Organisation name, type MHS and **NOT** Melbourne High Schoo
 ![alt text][login]
 
 
-Log in with your Melbourne High School Credentials. (What you use to sign into compass with)
+Log in with your Melbourne High School Credentials (used to sign into Compass).
 
 ![alt text][room]
 
