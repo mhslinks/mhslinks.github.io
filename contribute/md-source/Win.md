@@ -19,9 +19,10 @@ Run viviSetup.exe
 
 ![alt text][icon]
 
-If a notification comes up, asking if you trust the publisher, press YES.
+If a notification comes appear, asking if you trust the publisher, press YES.
 
 Follow the on-screen prompts.
+
 ![alt text][installerScreen]
 
 Launch Vivi.
