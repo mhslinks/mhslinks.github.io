@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Vivi on Windows
+description: Vivi installation on Windows
 ---
 
-#Vivi Installation - Windows : 
+# Vivi Installation - Windows : 
 
 Download vivi from : http://get.vivi.io/
 
@@ -37,7 +38,7 @@ Press confirm.
 
 Log in with your MHS Credentials (What you use to sign into compass with).
 
-##Connecting to a room
+## Connecting to a room
 
 Select a room
 
