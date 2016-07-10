@@ -18,7 +18,7 @@ Run viviSetup.exe :
 
 ![alt text][icon]
 
-If a notification comes appear, asking if you trust the publisher, press YES.
+If a notification appears asking if you trust the publisher, press YES.
 
 Follow the on-screen prompts.
 
@@ -35,7 +35,7 @@ Press confirm.
 
 ![alt text][goodName]
 
-Log in with your MHS Credentials (What you use to sign into compass with).
+Log in with your MHS Credentials (used to sign into Compass).
 
 ![alt text][login]
 
@@ -43,7 +43,7 @@ Log in with your MHS Credentials (What you use to sign into compass with).
 
 ## Connecting to a room
 
-Select a room
+Select a room.
 
 ![alt text][room]
 

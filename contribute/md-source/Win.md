@@ -37,7 +37,7 @@ Press confirm.
 
 ![alt text][login]
 
-Log in with your MHS Credentials (What you use to sign into compass with).
+Log in with your MHS Credentials (used to sign into Compass).
 
 ## Connecting to a room
 
