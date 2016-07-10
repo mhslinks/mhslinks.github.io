@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Vivi on ios
-description: Vivi installation on ios
+title: Vivi iOS
 ---
 
 # Vivi Installation - iOS
@@ -18,22 +17,30 @@ When asked for your Organisation name, type MHS and **NOT** Melbourne High Schoo
 
 ![alt text][badName]
 
+Press Confirm.
+
 ![alt text][goodName]
-
-
-
-![alt text][login]
-
 
 Log in with your Melbourne High School Credentials (used to sign into Compass).
 
+![alt text][login]
+
+Select a room and connect.
+
 ![alt text][room]
+
+Swipe up from the bottom of your screen and select Airplay. The room should now be there.
+
+
+Note: Jailbroken devices will not work with vivi.
+
+Note : Do not switch apps before airplaying. Doing so will break vivi.
 
 [download]: http://i.imgur.com/Ck2ALp7.jpg
 
 [app]: http://i.imgur.com/27vSYVP.jpg
 [goodName]: http://i.imgur.com/DNCkoq6.jpg
-[badName]: http://lodash.xyz/i/zuub1.jpg
+[badName]: http://i.imgur.com/DNCkoq6.jpg
 [login]: http://i.imgur.com/QpB0wPe.jpg
 
 [room]: http://i.imgur.com/FI3RDmo.jpg

@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Vivi on Windows
-description: Vivi installation on Windows
+title: Vivi Windows
 ---
 
-# Vivi Installation - Windows : 
+# Vivi Installation - Windows
 
 Download vivi from : http://get.vivi.io/
 
@@ -15,11 +14,11 @@ Vivi should now be downloading :
 ![alt text][download]
 
 
-Run viviSetup.exe
+Run viviSetup.exe :
 
 ![alt text][icon]
 
-If a notification comes appear, asking if you trust the publisher, press YES.
+If a notification appears asking if you trust the publisher, press YES.
 
 Follow the on-screen prompts.
 
@@ -31,17 +30,20 @@ When asked for your Organisation name, type MHS and **NOT** Melbourne High Schoo
 
 ![alt text][badName]
 
-![alt text][goodName]
-
 Press confirm.
 
-![alt text][login]
+
+![alt text][goodName]
 
 Log in with your MHS Credentials (used to sign into Compass).
 
+![alt text][login]
+
+
+
 ## Connecting to a room
 
-Select a room
+Select a room.
 
 ![alt text][room]
 
@@ -58,7 +60,7 @@ Vivi will take a moment to connect.
 
 [goodName]: http://lodash.xyz/i/9ut6v.png
 
-[badName]: http://lodash.xyz/i/eurn3.png
+[badName]: http://lodash.xyz/i/7mm2f.png
 
 [installerScreen]: http://lodash.xyz/i/98t3f.png
 
