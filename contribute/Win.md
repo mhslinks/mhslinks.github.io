@@ -1,3 +1,8 @@
+---
+layout: default
+title: Vivi on Windows
+---
+
 #Vivi Installation - Windows : 
 
 Download vivi from : http://get.vivi.io/

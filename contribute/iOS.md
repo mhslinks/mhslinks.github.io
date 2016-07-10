@@ -1,3 +1,8 @@
+---
+layout: default
+title: Vivi on iOS
+---
+
 #Vivi Installation - iOS
 
 Download vivi from : http://get.vivi.io/ or the app store
