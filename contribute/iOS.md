@@ -18,7 +18,7 @@ Press Confirm.
 
 ![alt text][goodName]
 
-Log in with your Melbourne High School Credentials. (What you use to sign into compass with)
+Log in with your Melbourne High School Credentials (used to sign into Compass).
 
 ![alt text][login]
 
