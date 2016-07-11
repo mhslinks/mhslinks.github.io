@@ -2,6 +2,8 @@
 layout: default
 title: Vivi iOS
 ---
+<div>
+  <div markdown="1">
 
 # Vivi Installation - iOS
 
@@ -44,3 +46,6 @@ Note : Do not switch apps before airplaying. Doing so will break vivi.
 [login]: http://i.imgur.com/QpB0wPe.jpg
 
 [room]: http://i.imgur.com/FI3RDmo.jpg
+
+  </div>
+</div>
