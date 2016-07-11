@@ -2,14 +2,14 @@
 layout: default
 title: Vivi iOS
 ---
-<div class = "inner links-body fade-in fade-two">
+<div class = "outer links-body fade-in fade-two">
   <div markdown="1">
 
 # Vivi Installation - iOS
 
 Download vivi from : http://get.vivi.io/ or the app store
 
-<img src="http://i.imgur.com/Ck2ALp7.jpg" alt="Download" style="max-width: 100%;height: auto;"/>
+<img src="http://i.imgur.com/Ck2ALp7.jpg" alt="Download" style="width: 100%;height: auto;"/>
 
 Run the vivi app
 
