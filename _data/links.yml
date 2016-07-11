@@ -1,24 +1,3 @@
-- text: "Vivi is replacing the Apple TVs. To use it, download the app here:"
-
-- name: Download Vivi
-  url: http://get.vivi.io/
-  size: 1-1
-  colour: orange
-
-- text: "Vivi instructions:"
-
-- name: Windows
-  url: vividocs/Win
-  size: 1-2
-  colour: orange
-
-- name: iOS
-  url: vividocs/iOS
-  size: 1-2
-  colour: orange
-
--
-
 - name: Compass
   url: https://mhs.vic.jdlf.com.au
   size: 1-1
@@ -62,3 +41,24 @@
   url: morelinks/
   size: 1-1
   colour: blue
+
+-
+
+- text: "Vivi is replacing the Apple TVs. To use it, download the app here:"
+
+- name: Download Vivi
+  url: http://get.vivi.io/
+  size: 2-1
+  colour: orange
+
+- text: "Vivi instructions:"
+
+- name: Windows
+  url: vividocs/Win
+  size: 2-2
+  colour: orange
+
+- name: iOS
+  url: vividocs/iOS
+  size: 2-2
+  colour: orange
