@@ -2,7 +2,7 @@
 layout: default
 title: Vivi iOS
 ---
-<div>
+<div class = "inner links-body fade-in fade-two pure-img">
   <div markdown="1">
 
 # Vivi Installation - iOS
