@@ -9,7 +9,7 @@ title: Vivi iOS
 
 Download vivi from : http://get.vivi.io/ or the app store
 
-<img src="http://i.imgur.com/Ck2ALp7.jpg" alt="Download" style="pure-img"/>
+<img src="http://i.imgur.com/Ck2ALp7.jpg" alt="Download" style="max-width: 50%;height: auto;"/>
 
 Run the vivi app
 
