@@ -2,34 +2,34 @@
 layout: default
 title: Vivi iOS
 ---
-<div class = "inner links-body fade-in fade-two pure-img">
+<div class = "inner links-body fade-in fade-two">
   <div markdown="1">
 
 # Vivi Installation - iOS
 
 Download vivi from : http://get.vivi.io/ or the app store
 
-![alt text][download]
+![alt text][download] {: .pure-img}
 
 Run the vivi app
 
-![alt text][app]
+![alt text][app] {: .pure-img}
 
 When asked for your Organisation name, type MHS and **NOT** Melbourne High School.
 
-![alt text][badName]
+![alt text][badName] {: .pure-img}
 
 Press Confirm.
 
-![alt text][goodName]
+![alt text][goodName] {: .pure-img}
 
 Log in with your Melbourne High School Credentials (used to sign into Compass).
 
-![alt text][login]
+![alt text][login] {: .pure-img}
 
 Select a room and connect.
 
-![alt text][room]
+![alt text][room] {: .pure-img}
 
 Swipe up from the bottom of your screen and select Airplay. The room should now be there.
 
