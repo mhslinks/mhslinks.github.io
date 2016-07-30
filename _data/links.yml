@@ -4,7 +4,7 @@
   colour: green
 
 - name: Office 365
-  url: https://login.microsoftonline.com
+  url: https://portal.office.com
   size: 1-1
   colour: green
 
