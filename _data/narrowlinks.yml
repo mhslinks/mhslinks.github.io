@@ -1,18 +1,27 @@
+-
+
+- name: Formal 2016
+  url: https://docs.google.com/forms/d/e/1FAIpQLSfAjbSI2IqQryRyzXhDqk_oGp2lXdu7XQSP0Lj0TgK3kDa_zw/viewform?c=0&w=1
+  size: 1-1
+  colour: lightblue
+ 
+-
+
 - text: "Vivi is replacing the Apple TVs. To use it, download the app here:"
 
 - name: Download Vivi
   url: http://get.vivi.io/
   size: 1-1
-  colour: blue
+  colour: lightblue
 
 - text: "Vivi instructions:"
 
 - name: Windows
   url: vividocs/Win
   size: 1-2
-  colour: blue
+  colour: lightblue
 
 - name: iOS
   url: vividocs/iOS
   size: 1-2
-  colour: blue
+  colour: lightblue
