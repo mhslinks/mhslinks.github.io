@@ -3,16 +3,16 @@
 - name: Download Vivi
   url: http://get.vivi.io/
   size: 1-1
-  colour: orange
+  colour: blue
 
 - text: "Vivi instructions:"
 
 - name: Windows
   url: vividocs/Win
   size: 1-2
-  colour: orange
+  colour: blue
 
 - name: iOS
   url: vividocs/iOS
   size: 1-2
-  colour: orange
+  colour: blue

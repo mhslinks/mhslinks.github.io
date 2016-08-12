@@ -1,5 +1,14 @@
 -
 
+- text: "Mail is moving to:"
+
+- name: Office 365
+  url: https://portal.office.com
+  size: 1-1
+  colour: orange
+
+- text: "Old mail:"
+
 - name: Webmail
   url: http://webmail.mhs.vic.edu.au
   size: 1-2
