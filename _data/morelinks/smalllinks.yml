@@ -9,18 +9,18 @@
 
 - name: Web Quota
   url: https://auth.localnetwork.zone:60091/statspopup
-  colour: blue
+  colour: darkblue
   size: 1-2
 
 - name: Usage Stats
   url: http://auth.netbox/portal/
   size: 1-2
-  colour: blue
+  colour: darkblue
 
 - name: Certificate
   url: http://www.localnetwork.zone/noauth/cacert
   size: 1-2
-  colour: blue
+  colour: darkblue
 
 -
 
@@ -29,16 +29,16 @@
 - name: Download Vivi
   url: http://get.vivi.io/
   size: 1-1
-  colour: darkblue
+  colour: lightblue
 
 - text: "Vivi instructions:"
 
 - name: Windows
   url: vividocs/Win
   size: 1-2
-  colour: darkblue
+  colour: lightblue
 
 - name: iOS
   url: vividocs/iOS
   size: 1-2
-  colour: darkblue
+  colour: lightblue
