@@ -3,7 +3,7 @@
   size: 1-1
   colour: green
 
-- text: "Mail is moving to:"
+- text: "Mail has moved:"
 
 - name: Office 365
   url: https://portal.office.com
@@ -45,4 +45,3 @@
   url: morelinks/
   size: 1-1
   colour: blue
-
