@@ -1,11 +1,9 @@
 -
 
-- text: "Mail has moved:"
-
-- name: Office 365
+- name: Mail
   url: https://outlook.office365.com
   size: 1-1
-  colour: orange
+  colour: blue
 
 - text: "Only works at MHS:"
 
