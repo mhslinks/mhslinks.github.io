@@ -11,18 +11,20 @@
 
 - name: Web Quota
   url: https://auth.localnetwork.zone:60091/statspopup
-  colour: darkblue
+  colour: blue
   size: 1-2
 
 - name: Usage Stats
   url: http://auth.netbox/portal/
   size: 1-2
-  colour: darkblue
+  colour: blue
 
 - name: Certificate
   url: http://www.localnetwork.zone/noauth/cacert
   size: 1-2
-  colour: darkblue
+  colour: blue
+
+-
 
 - text: "Vivi is replacing the Apple TVs. To use it, download the app here:"
 
