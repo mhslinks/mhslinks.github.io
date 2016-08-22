@@ -3,14 +3,10 @@
   size: 1-1
   colour: green
 
-- text: "Mail has moved:"
-
 - name: Office 365
   url: https://portal.office.com
   size: 1-1
-  colour: orange
-
--
+  colour: green
 
 - name: MHS Connect
   url: http://connect.mhs.vic.edu.au/
