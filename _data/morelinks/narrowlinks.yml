@@ -1,4 +1,4 @@
 - name: Email Setup
-  url: documents/Email_Setup_Instructions.pdf
+  url: ../documents/Email_Setup_Instructions.pdf
   size: 1-1
-  colour: organge
+  colour: orange
