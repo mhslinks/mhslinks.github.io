@@ -1,3 +1,10 @@
+- name: Wifi Instructions
+  url: documents/WiFi-Term4.pdf
+  size: 1-1
+  colour: red
+
+-
+
 - name: Compass
   url: https://mhs.vic.jdlf.com.au
   size: 1-1
