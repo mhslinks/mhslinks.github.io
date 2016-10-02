@@ -20,6 +20,8 @@
   size: 1-1
   colour: green
 
+-
+
 - name: Connect
   url: http://connect.mhs.vic.edu.au/
   size: 1-2
