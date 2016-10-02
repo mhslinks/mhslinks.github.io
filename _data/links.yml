@@ -15,14 +15,21 @@
   size: 1-1
   colour: green
 
+- name: Canvas
+  url: https://mhs.instructure.com
+  size: 1-1
+  colour: green
+
+-
+
 - name: MHS Connect
   url: http://connect.mhs.vic.edu.au/
-  size: 1-1
+  size: 1-2
   colour: green
 
 - name: MHS Portal
   url: http://domain.mhs.vic.edu.au/
-  size: 1-1
+  size: 1-2
   colour: green
 
 -
