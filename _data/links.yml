@@ -1,10 +1,10 @@
-- name: Compass
-  url: https://mhs.vic.jdlf.com.au
+- name: Office 365
+  url: https://portal.office.com
   size: 1-1
   colour: green
 
-- name: Office 365
-  url: https://portal.office.com
+- name: Compass
+  url: https://mhs-vic.compass.education
   size: 1-1
   colour: green
 
