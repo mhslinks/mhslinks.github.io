@@ -1,4 +1,9 @@
-#- name: Exams
-#  url: exams/
-#  size: 1-1
-#  colour: orange
+- name: 2017 Booklist
+  url: https://jpbooks.com.au/selectyearlevel.aspx?SchoolID=0
+  size: 1-2
+  colour: orange
+
+- name: Book Covers
+  url: /documents/2017-booklist.pdf
+  size: 1-2
+  colour: orange

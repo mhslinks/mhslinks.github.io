@@ -48,15 +48,3 @@
   url: morelinks/
   size: 1-1
   colour: blue
-
--
-
-- name: 2017 Booklist
-  url: https://jpbooks.com.au/selectyearlevel.aspx?SchoolID=0
-  size: 2-2
-  colour: orange
-
-- name: Book Covers
-  url: /documents/2017-booklist.pdf
-  size: 2-2
-  colour: orange
