@@ -1,137 +1,141 @@
 - name: School Captains
   members:
     - position: School Captain
-      name: Jackson Long
+      name: Peter Nguyen
       email:
 
     - position: School Vice-Captain
-      name: Oliver Johnson
-      email: oliver.johnson1998@gmail.com
+      name: Joseph Owen
+      email: 
 
     - position: Junior School Captain
-      name: Meth Prathapasinghe
+      name: 
       email:
 
     - position: Junior School Captain
-      name: Kabisan Sutharsan
+      name: 
       email:
 
     - position: Junior School Captain
-      name: Matthew Travaglini
-      email: matthewgtravaglini@gmail.com
+      name: 
+      email: 
 
     - position: Junior School Captain
-      name: John Poliniak
-      email: jpoliniak@gmail.com
+      name: 
+      email: 
 
 
 - name: SRC Cabinet
   members:
     - position: President
-      name: Yoann Colin
-      email: yoann_colin@yahoo.com.au
+      name: Bowen Hafey
+      email: 
 
     - position: Vice-President
-      name: Ben Qin
-      email: benqin.bq@gmail.com
+      name: Yath Pathmanathan
+      email: 
 
     - position: Secretary
-      name: Arman Riazati
-      email: armanriazati.ar@gmail.com
+      name: Chinmay Sharma
+      email: 
 
     - position: Assistant Secretary
-      name: Rivi Prathapasinghe
-      email: rivi.prathapasinghe@gmail.com
+      name: Jackson Evans
+      email: 
 
     - position: Treasurer
-      name: Victor Soong
-      email: vsoong99@gmail.com
+      name: Sheaj Garcha
+      email: 
 
     - position: Assistant Treasurer
-      name: Rahul Sathish
-      email: rahul.sathish@icloud.com
+      name: James Dinh
+      email: 
 
 
 - name: House Captains
   members:
     - position: Como Captain
-      name: Sothea-Roth Bak
-      email: sothearoth.bak.s@gmail.com
+      name: Anthony Giannopoulos
+      email: 
 
     - position: Como Vice-Captain
-      name: Cary Douros
+      name: Chow Lui
       email:
 
     - position: Forrest Captain
-      name: James Richter
-      email: j.richter171@gmail.com
+      name: William Walker
+      email: 
 
     - position: Forrest Vice-Captain
-      name: Zac Zhou
+      name: Johnston Mai
       email:
 
     - position: Waterloo Captain
-      name: Harry Pham
-      email: harryhpham.99@gmail.com
+      name: Itai Shaul
+      email: 
 
     - position: Waterloo Vice-Captain
-      name: Michael Kuzminski
-      email: michael@europesbest.com.au
+      name: Kareem Habib
+      email: 
 
     - position: Yarra Captain
-      name: Guy Velik
-      email: guyvelik@bigpond.com
+      name: Gasha Admassu
+      email: 
 
     - position: Yarra Vice-Captain
-      name: Abeshek Nadarajah
-      email: abesheknadarajah321@gmail.com
+      name: Lynden Kane
+      email: 
 
 - name: SRC Executives
   members:
     - position: Year 12
-      name: Neil Umoh
+      name: 
       email:
 
     - position: Year 12
-      name: Tony Xie
+      name: 
       email:
 
     - position: Year 11
-      name: Bowan Hafey
+      name: 
+      email:
+
+    - position: Year 11
+      name: 
       email:
 
     - position: Year 10
-      name: Ryan Chowdhury
+      name: 
       email:
 
     - position: Year 10
-      name: Alden Vong
+      name: 
       email:
 
     - position: Year 9
-      name: Martin Xie
+      name: 
       email:
 
     - position: Year 9
-      name: Alex Wu
+      name: 
       email:
 
 - name: IT Captains
   members:
     - position: IT Captain
-      name: Peter Drew
-      email: mhsitexecutive+peter@gmail.com
+      name: Gatlee Kaw
+      email: 
 
     - position: IT Vice-Captain
-      name: Moss Ebeling
-      email: mhsitexecutive+moss@gmail.com
+      name: Rithesh Jayaram
+      email: 
 
 - name: Music Captains
   members:
     - position: Music Captain
-      name: Billy Chen
-      email: billychen10@hotmail.com
+      name: Henry Ye
+      email: 
 
-    - position: Music Vice Captain
-      name: Po Goh
-      email: po.goh.17@gmail.com
+    - position: Music Vice-Captain
+      name: Ben Yu
+      email: 
