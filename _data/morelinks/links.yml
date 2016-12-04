@@ -3,22 +3,22 @@
 - name: English
   url: http://resources.mhs.vic.edu.au/english/
   size: 1-2
-  colour: lightblue
+  colour: green
 
 - name: Physics
   url: http://physicsatmhs.com/
   size: 1-2
-  colour: lightblue
+  colour: green
 
 - name: Philosophy
   url: http://philosophy.atmhs.com/
   size: 1-2
-  colour: lightblue
+  colour: green
 
 - name: Library
   url: http://libguides.mhs.vic.edu.au/libraryhome
   size: 1-2
-  colour: lightblue
+  colour: green
 
 -
 
@@ -27,14 +27,14 @@
 - name: Maths
   url: http://domain.mhs.vic.edu.au/Student/Faculties/Maths
   size: 1-3
-  colour: lightblue
+  colour: green
 
 - name: Chemistry
   url: http://domain.mhs.vic.edu.au/Student/Faculties/Chemistry
   size: 1-3
-  colour: lightblue
+  colour: green
 
 - name: Biology
   url: http://domain.mhs.vic.edu.au/Student/Faculties/Biology
   size: 1-3
-  colour: lightblue
+  colour: green
