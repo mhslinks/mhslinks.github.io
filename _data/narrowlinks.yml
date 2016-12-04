@@ -3,4 +3,4 @@
 - name: Netbox Certificate
   url: http://www.localnetwork.zone/noauth/cacert
   size: 1-1
-  colour: blue
+  colour: orange

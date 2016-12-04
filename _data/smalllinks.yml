@@ -1,8 +1,7 @@
 -
 
-- text: "Vivi is replacing the Apple TVs. To use it, download the app here:"
 
-- name: Download Vivi
+- name: Vivi Download
   url: http://get.vivi.io/
   size: 1-1
   colour: blue
