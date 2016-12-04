@@ -1,25 +1,10 @@
 -
 
-- name: Mail
-  url: https://outlook.office365.com
-  size: 1-1
-  colour: blue
-
 - text: "Only works at MHS:"
 
-- name: Web Quota
-  url: https://auth.localnetwork.zone:60091/statspopup
-  colour: darkblue
-  size: 1-2
-
-- name: Usage Stats
-  url: http://auth.netbox/portal/
-  size: 1-2
-  colour: darkblue
-
-- name: Certificate
+- name: Netbox Certificate
   url: http://www.localnetwork.zone/noauth/cacert
-  size: 1-2
+  size: 1-1
   colour: darkblue
 
 -
