@@ -4,7 +4,7 @@
   colour: green
 
 - name: Office 365
-  url: https://portal.office.com
+  url: https://login.microsoftonline.com/?whr=mhs.vic.edu.au
   size: 1-1
   colour: green
 
