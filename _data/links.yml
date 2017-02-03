@@ -15,12 +15,6 @@
 
 -
 
-- name: Portal
-  url: http://domain.mhs.vic.edu.au/
-  size: 1-1
-  colour: green
-
--
 
 - name: Teacher Emails
   url: teacheremails/
