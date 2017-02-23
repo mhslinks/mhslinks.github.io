@@ -3,6 +3,15 @@
   students:
     - name: Peter Drew
       email: peter.drew@outlook.com.au
+      
+ - name: Space Interest Club
+  teacher: Mr Sette/ Mr Goodey
+  students:
+    - name:  Tushar Nagar
+      email: sic.mhs@gmail.com
+    - name: Tymon Shih
+      email: sic.mhs@gmail.com
+
 
 - name: Business Club
   teacher: Mr Marotta
