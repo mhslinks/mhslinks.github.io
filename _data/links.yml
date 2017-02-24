@@ -19,14 +19,24 @@
 - name: Teacher Emails
   url: teacheremails/
   size: 1-1
-  colour: lightblue
+  colour: blue
 
 - name: Student Leader Emails
   url: studentcontacts/
   size: 1-1
-  colour: lightblue
+  colour: blue
 
 - name: Club Contacts
   url: clubs/
+  size: 1-1
+  colour: blue
+
+- name: BYOD Software Download
+  url: http://software.mhs.vic.edu.au
+  size: 1-1
+  colour: lightblue
+
+- name: Email Setup Instructions
+  url: ../documents/Email_Setup_Instructions.pdf
   size: 1-1
   colour: lightblue
