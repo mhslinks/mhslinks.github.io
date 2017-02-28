@@ -42,3 +42,8 @@
   url: ../documents/Email_Setup_Instructions.pdf
   size: 1-1
   colour: lightblue
+
+- name: Netbox Certificate
+  url: http://www.localnetwork.zone/noauth/cacert
+  size: 1-1
+  colour: lightblue
