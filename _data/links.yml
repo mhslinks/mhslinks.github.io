@@ -13,7 +13,11 @@
   size: 1-1
   colour: green
 
-- text: Serach for emails in Office 365.
+-
+
+- text: Serach for email addresses in Office 365.
+
+-
 
 - name: BYOD Software Download
   url: http://software.mhs.vic.edu.au
