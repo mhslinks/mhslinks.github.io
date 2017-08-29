@@ -15,10 +15,6 @@
 
 -
 
-- text: Teacher emails has been deprecated. Search for email addresses in Office 365.
-
--
-
 - name: BYOD Software Download
   url: http://software.mhs.vic.edu.au
   size: 1-1
