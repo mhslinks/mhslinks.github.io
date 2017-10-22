@@ -27,6 +27,13 @@ var i = links.length; while (i--) {
 
 <script src="/js/js.cookie-2.1.4.min.js"></script>
 <script>
+
+var currentTime = new Date().getHours();
+
+if (currentTime >= 19 || currentTime <= 6) {
+	setNightMode(true);
+}
+
 if (Cookies.get("night-mode-enabled") === "true") {
 	setNightMode(true);
 }
@@ -34,18 +41,18 @@ if (Cookies.get("night-mode-enabled") === "true") {
 function toggleNightMode() {
 	if (document.body.className === "night-mode") {
 		setNightMode(false);
+		Cookies.set('night-mode-enabled', false);
 	} else {
 		setNightMode(true);
+		Cookies.set('night-mode-enabled', true);
 	}
 }
 
 function setNightMode(enable) {
 	if (enable === true) {
 		document.body.className = "night-mode";
-		Cookies.set('night-mode-enabled', true);
 	} else {
 		document.body.className = "";
-		Cookies.set('night-mode-enabled', false);
 	}
 }
 </script>
