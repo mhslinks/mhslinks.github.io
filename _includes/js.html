@@ -34,8 +34,9 @@ if (currentTime >= 19 || currentTime <= 6) {
 	setNightMode(true);
 }
 
-if (Cookies.get("night-mode-enabled") === "true") {
-	setNightMode(true);
+var nightModeCookie = Cookies.get("night-mode-enabled");
+if (nightModeCookie) {
+	setNightMode(nightModeCookie === "true" ? true : false);
 }
 
 function toggleNightMode() {
