@@ -296,6 +296,10 @@ a:focus>.email
 	.links-body {
 		width: 196px; /* 70% */
 	}
+	.button-xlarge
+	{
+		font-size: 100%;
+	}
 	.narrow-grid
 	{
 		width: 100%;
