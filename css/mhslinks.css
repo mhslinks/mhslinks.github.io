@@ -1,5 +1,11 @@
 body
 {
+	/* Transition for night mode */
+    -moz-transition: background .2s ease-in;
+    -o-transition: background .2s ease-in;
+    -webkit-transition: background .2s ease-in;
+    transition: background .2s ease-in;
+
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height: 1.428571429;
 }

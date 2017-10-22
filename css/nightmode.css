@@ -1,0 +1,11 @@
+body.night-mode {
+	background: #222;
+}
+
+body.night-mode .button-blue {
+    background: rgb(50, 98, 127);
+}
+
+body.night-mode .button-green {
+    background: rgb(28, 144, 65);
+}
