@@ -56,6 +56,16 @@ body
 	padding-bottom: 60px;
 }
 
+.inner.inner-top-padded
+{
+	padding-bottom: 0px;
+}
+
+.inner.inner-bottom-padded
+{
+	padding-top: 0px;
+}
+
 .button-green,
 .button-red,
 .button-orange,

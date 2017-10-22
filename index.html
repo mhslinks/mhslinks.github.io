@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="inner links-body fade-in fade-two">
+<div class="inner inner-bottom-padded links-body fade-in fade-two">
   {% for type in site.data.linktypes %}
   <div class="pure-g{% if type.class %} {{ type.class }}{% endif %}">
     {% for link in site.data[type.name] %}

@@ -2,6 +2,10 @@ body.night-mode {
 	background: #222;
 }
 
+body.night-mode #mhslinks-title {
+	color: white;
+}
+
 body.night-mode .button-green {
     background: rgb(28, 144, 65);
 }
