@@ -11,9 +11,9 @@ description: A place to add timetables to your mobile device.
   <div>Tap your year level to sync it to your device.</div>
   <br>
   <div class="small">
-  <div><a class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y9.ics">Year 9</a></div>
-  <div><a class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y10.ics">Year 10</a></div>
-  <div><a class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y11.ics">Year 11</a></div>
+  <div><a id="year9sync" class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y9.ics">Year 9</a></div>
+  <div><a id="year10sync" class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y10.ics">Year 10</a></div>
+  <div><a id="year11sync" class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y11.ics">Year 11</a></div>
   <br>
   <div class="small"><span style="line-height: 1.4;">Check VCAA timetable for 3/4 exam times.</span></div>
   </div>
@@ -26,3 +26,17 @@ description: A place to add timetables to your mobile device.
   <br>
   <div><a class="pure-button button-xlarge button-red" href="/documents/exam_docs/2017_end_of_year_exam_timetable.pdf">Exam timetable (PDF)</a></div>
 </div>
+
+<script type="text/javascript">
+  var ua = navigator.userAgent.toLowerCase();
+  var isAndroid = ua.indexOf("android") > -1;
+  if(isAndroid) {
+    let linkIDs = ["year9sync", "year10sync", "year11sync"]
+    for (var i = linkIDs.length - 1; i >= 0; i--) {
+      var element = document.getElementById(linkIDs[i]);
+      var link = element.getAttribute("href");
+      link = link.replace("webcal", "https");
+      element.setAttribute("href", link);
+    }
+  }
+</script>
