@@ -29,3 +29,10 @@
   url: http://www.localnetwork.zone/noauth/cacert
   size: 1-1
   colour: blue
+
+-
+
+- name: 2017 Exam Timetable
+  url: /exams
+  size: 1-1
+  colour: orange
