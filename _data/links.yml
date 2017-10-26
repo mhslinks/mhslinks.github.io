@@ -15,23 +15,6 @@
 
 -
 
-- name: BYOD Software Download
-  url: http://software.mhs.vic.edu.au
-  size: 1-1
-  colour: blue
-
-- name: Email Setup Instructions
-  url: ../documents/Email_Setup_Instructions.pdf
-  size: 1-1
-  colour: blue
-
-- name: Netbox Certificate
-  url: http://www.localnetwork.zone/noauth/cacert
-  size: 1-1
-  colour: blue
-
--
-
 - name: 2017 Exam Timetable
   url: /exams
   size: 1-1
