@@ -1,0 +1,15 @@
+-
+
+- name: Office 365 Shortcuts
+  text: Office 365 Shortcuts
+  size: 1-1
+
+- name: Email
+  url: https://outlook.office365.com/owa/
+  size: 1-2
+  colour: blue
+
+- name: Student/Teacher Emails
+  url: https://outlook.office365.com/owa/?modurl=2
+  size: 1-2
+  colour: blue
