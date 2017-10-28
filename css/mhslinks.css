@@ -71,6 +71,15 @@ body
 	padding-top: 0px;
 }
 
+.inner-markdown {
+	width: 50%;
+}
+
+.inner-markdown *
+{
+	max-width: 100%;
+}
+
 .button-green,
 .button-red,
 .button-orange,
