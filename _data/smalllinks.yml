@@ -40,6 +40,6 @@
   colour: blue
 
 - name: Set up Vivi
-  url: ../vividocs/iOS
+  url: ../vividocs/
   size: 1-2
   colour: blue
