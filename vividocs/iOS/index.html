@@ -3,37 +3,6 @@ layout: default
 title: Vivi Installation - iOS
 ---
 <div class="inner inner-bottom-padded inner-markdown">
-
-  <p>Download vivi from : <a href="http://get.vivi.io/">http://get.vivi.io/</a> or the app store</p>
-
-  <img alt="App Store Screen" src="http://i.imgur.com/Ck2ALp7.jpg" />
-
-  <p>Run the vivi app</p>
-
-  <img alt="iOS Home Screen with Vivi app icon" src="http://i.imgur.com/27vSYVP.jpg" />
-
-  <p>When asked for your Organisation name, type MHS and <strong>NOT</strong> Melbourne High School.</p>
-
-  <img alt="MHS typed in. Confirmation text shown 'Is your school Melbourne High School?'" src="http://i.imgur.com/DNCkoq6.jpg" />
-
-  <p>Press Confirm.</p>
-
-  <img alt="Confirm button being pressed" src="http://i.imgur.com/DNCkoq6.jpg" />
-
-  <p>Log in with your Melbourne High School Credentials (used to sign into Compass).</p>
-
-  <img alt="Log in screen with sample credentials filled in" src="http://i.imgur.com/QpB0wPe.jpg" />
-
-  <p>Select a room and connect.</p>
-
-  <img alt="Screen listing available rooms" src="http://i.imgur.com/FI3RDmo.jpg" />
-
-  <p>Swipe up from the bottom of your screen and select Airplay. The room should now be there.</p>
-
-  <p>Note: Jailbroken devices will not work with vivi.</p>
-
-  <p>Note : Do not switch apps before airplaying. Doing so will break vivi.</p>
-
-  <a class="pure-button button-xlarge button-red" href="/">« Home</a>
-
+	{% capture markdown-page %}{% include_relative content.md %}{% endcapture %}
+	{{ markdown-page | markdownify }}
 </div>
