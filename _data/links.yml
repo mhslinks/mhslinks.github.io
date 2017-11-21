@@ -15,7 +15,7 @@
 
 -
 
-- name: 2017 Exam Timetable
-  url: /exams
+- name: 2018 Booklist
+  url: ../documents/2018-booklist.pdf
   size: 1-1
   colour: orange
