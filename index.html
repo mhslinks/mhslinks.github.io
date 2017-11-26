@@ -1,19 +1,64 @@
 ---
 layout: default
+links:
+  standard:
+    - name: Compass
+      url: https://mhs-vic.compass.education
+
+    - name: Office 365
+      url: https://login.microsoftonline.com/?whr=mhs.vic.edu.au
+
+    - name: Canvas
+      url: https://mhs.instructure.com
+
+    -
+
+    - name: 2018 Booklist
+      url: ../documents/2018-booklist.pdf
+      colour: orange
+
+  small:
+    -
+
+    - text: Office 365
+
+    - name: Email
+      url: https://outlook.office365.com/owa/
+      size: 1-2
+      colour: blue
+
+    - name: Student/Teacher Emails
+      url: https://outlook.office365.com/owa/?modurl=2
+      size: 1-2
+      colour: blue
+
+    -
+
+    - text: BYOD
+
+    - name: BYOD Software
+      url: http://software.mhs.vic.edu.au
+      size: 1-2
+      colour: blue
+
+    - name: Netbox Certificate
+      url: http://www.localnetwork.zone/noauth/cacert
+      size: 1-2
+      colour: blue
+
+    -
+
+    - text: Instructions
+
+    - name: Set up school email
+      url: ../documents/Email_Setup_Instructions.pdf
+      size: 1-2
+      colour: blue
+
+    - name: Set up Vivi
+      url: ../vividocs/
+      size: 1-2
+      colour: blue
 ---
 
-<div class="inner inner-bottom-padded links-body fade-in fade-two">
-  {% for type in site.data.linktypes %}
-  <div class="pure-g{% if type.class %} {{ type.class }}{% endif %}">
-    {% for link in site.data.links[type.name] %}
-    {% if link.text %}
-    <div class="pure-u-1-1 pure-u-md-{{ link.size }}">{{ link.text }}</div>
-    {% elsif link %}
-    <div class="pure-u-1-1 pure-u-md-{{ link.size }}{% if link.divclasses %} {{ link.divclasses }}{% endif %}"><a class="pure-button button-xlarge button-{{ link.colour }}" href="{{ link.url }}">{{ link.name }}</a></div>
-    {% else %}
-    <div class="pure-u-1-1 gridfix filler"></div>
-    {% endif %}
-    {% endfor %}
-  </div>
-  {% endfor %}
-</div>
+{% include links-body.html %}
