@@ -22,7 +22,7 @@ sections:
     - type: small
 
         body:
-            - text: "I'm small and irrelevant, just like the IT Executive :("
+            - text: "This is small text."
 ---
 ```
 
