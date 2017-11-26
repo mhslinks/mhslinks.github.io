@@ -2,6 +2,6 @@ standard:
 small:
   class: small-grid
 narrow:
-  class: narrow-grid small-grid
+  class: narrow-grid
 text:
   class: text-grid
