@@ -1,7 +1,7 @@
 <div class="inner inner-bottom-padded links-body fade-in fade-two">
-  {% for type in site.data.linktypes %}
-  <div class="pure-g{% if type.class %} {{ type.class }}{% endif %}">
-    {% for link in page.links[type.name] %}
+  {% for section in page.sections %}
+  <div class="pure-g{% if section.type and site.data.linktypes[section.type].class %} {{ site.data.linktypes[section.type].class }}{% endif %}">
+    {% for link in section.body %}
     {% if link.text %}
     <div class="pure-u-1-1 pure-u-md-{{ link.size | default: '1-1' }}">{{ link.text }}</div>
     {% elsif link %}
@@ -10,6 +10,9 @@
     <div class="pure-u-1-1 gridfix filler"></div>
     {% endif %}
     {% endfor %}
+    {% if forloop.last != true %}
+    <div class="pure-u-1-1 gridfix filler"></div>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
