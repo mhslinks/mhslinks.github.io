@@ -10,3 +10,4 @@ title: MHS Links
 description: A collection of links (and more) for Melbourne High School.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mhslinks.github.io" # the base hostname & protocol for your site
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
