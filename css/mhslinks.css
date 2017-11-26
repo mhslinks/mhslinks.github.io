@@ -117,7 +117,6 @@ body
 .button-darkblue {
 	color: white;
 	border-radius: 4px;
-	/*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);*/
 }
 
 .button-green {
@@ -171,94 +170,32 @@ body
 	background-color: #EEE;
 	text-align: center;
 	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-@keyframes emailAfter {
-	0% {
-		opacity:0;
-	}
-	30% {
-		opacity:1;
-	}
-}
-
 .fade-in
 {
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
-
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 1;
-	-moz-animation:fadeIn ease-in 1;
 	animation:fadeIn ease-in 1;
-
-	-webkit-animation-fill-mode:forwards;
-	-moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
-
-	-webkit-animation-duration:0.5s;
-	-moz-animation-duration:0.5s;
 	animation-duration:0.5s;
 }
 
 .fade-one {
-	-webkit-animation-delay: 0.5s;
-	-moz-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
 
 .fade-two {
-	-webkit-animation-duration:0.2s;
-	-moz-animation-duration:0.2s;
 	animation-duration:0.2s;
 }
 
-.emails-body
-{
-	max-width: 560px;
-}
-
 .links-body,
-.emails-body,
 .links-body-inner
 {
 	text-align: center;
-}
-
-.small
-{
-	font-size: 90%;
-}
-
-.faculty-heading
-{
-	font-size: 120%;
-	text-align: center;
-}
-
-a
-{
-	text-decoration: none;
-	outline:none;
-	transition: all 0.1s ease-in-out;
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition: all 0.1s ease-in-out;
-}
-
-a:focus
-{
-	box-shadow: 0 0 7px rgba(255, 0, 0, 1);
-	-webkit-box-shadow: 0 0 7px rgba(255, 0, 0, 1);
-	-moz-box-shadow: 0 0 7px rgba(255, 0, 0, 1);
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
@@ -266,62 +203,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 	font-weight: 500;
 }
 
-.email
+a
 {
-	font-size: 55%;
-	opacity: 0.3;
-	outline: none;
-	-moz-transition: font-size .07s;
-	-webkit-transition: font-size .07s;
-	transition: font-size .07s;
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
-}
-
-.emails-body div:hover>a>.email,
-a:focus>.email
-{
-	font-size: 100%;
-	opacity: 1.0;
-}
-
-.removed
-{
-	display: none;
-}
-
-
-.email-table
-{
-	margin: 0 auto;
-}
-
-.email-table td
-{
-	vertical-align: top;
-}
-
-.email-table th
-{
-	padding-top: 1em;
-}
-
-.email-table-club
-{
-	max-width: 600px;
-}
-
-.email-table-leader
-{
-	max-width: 400px;
-}
-
-.email-table-club td
-{
-	padding: 0.25em 0em;
+	text-decoration: none;
+	outline:none;
 }
 
 @media screen and (max-width: 767px)
