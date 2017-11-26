@@ -2,41 +2,40 @@
 layout: default
 title: Sync Exam Timetables
 description: A place to add timetables to your mobile device.
+sections:
+  - body:
+    - text: Tap your year level to sync it to your device.
+
+    -
+
+    - name: Year 9
+      url: webcal://mhslinks.github.io/documents/exam_sync/y9.ics
+      colour: orange
+
+    - name: Year 10
+      url: webcal://mhslinks.github.io/documents/exam_sync/y10.ics
+      colour: orange
+
+    - name: Year 11
+      url: webcal://mhslinks.github.io/documents/exam_sync/y11.ics
+      colour: orange
+
+  - type: small
+    body:
+      - text: Check VCAA timetable for 3/4 exam times.
+
+  - type: text 
+    body:
+      - text: If the timetables are not correct, please contact an IT Executive.
+      - text: Be mindful that some Unit 1/2 exams have different finishing times.
+      - text: <b>Never bring your phone into an exam.</b> Leave it in your locker.
+
+  - body:
+    - text: "Don't want to sync? The original document is available below:"
+
+    - name: Exam timetable (PDF)
+      url: /documents/exam_docs/2017_end_of_year_exam_timetable.pdf
+      colour: red
 ---
-<style>.button-orange { width:128px; margin-bottom:3px }</style>
-<style>.button-blue { width:128px; margin-bottom:3px }</style>
-<style>.button-green { width:128px; margin-bottom:3px }</style>
 
-<div class="inner inner-bottom-padded emails-body fade-in fade-two">
-  <div>Tap your year level to sync it to your device.</div>
-  <br>
-  <div class="small">
-  <div><a id="year9sync" class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y9.ics">Year 9</a></div>
-  <div><a id="year10sync" class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y10.ics">Year 10</a></div>
-  <div><a id="year11sync" class="pure-button button-xlarge button-orange" href="webcal://mhslinks.github.io/documents/exam_sync/y11.ics">Year 11</a></div>
-  <br>
-  <div class="small"><span style="line-height: 1.4;">Check VCAA timetable for 3/4 exam times.</span></div>
-  </div>
-  <br>
-  <div class="small"><span style="line-height: 1.4;">If the timetables are not correct, please contact an IT Executive.</span></div>
-  <div class="small"><span style="line-height: 1.4;">Be mindful that some Unit 1/2 exams have different finishing times.</span></div>
-  <div class="small"><span style="line-height: 1.4;"><b>Never bring your phone into an exam.</b> Leave it in your locker.</span></div>
-  <br>
-  <div>Don't want to sync? The original document is available below:</div>
-  <br>
-  <div><a class="pure-button button-xlarge button-red" href="/documents/exam_docs/2017_end_of_year_exam_timetable.pdf">Exam timetable (PDF)</a></div>
-</div>
-
-<script type="text/javascript">
-  var ua = navigator.userAgent.toLowerCase();
-  var isAndroid = ua.indexOf("android") > -1;
-  if(isAndroid) {
-    let linkIDs = ["year9sync", "year10sync", "year11sync"]
-    for (var i = linkIDs.length - 1; i >= 0; i--) {
-      var element = document.getElementById(linkIDs[i]);
-      var link = element.getAttribute("href");
-      link = link.replace("webcal", "https");
-      element.setAttribute("href", link);
-    }
-  }
-</script>
+{% include links-body.html %}
