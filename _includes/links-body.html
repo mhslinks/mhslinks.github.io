@@ -1,4 +1,4 @@
-<div class="inner inner-bottom-padded links-body fade-in fade-two">
+<div class="inner inner-bottom-padded links-body-inner fade-in fade-two">
   {% for section in page.sections %}
   <div class="pure-g{% if section.type and site.data.linktypes[section.type].class %} {{ site.data.linktypes[section.type].class }}{% endif %}">
     {% for link in section.body %}

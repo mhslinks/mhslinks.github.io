@@ -3,3 +3,5 @@ small:
   class: small-grid
 narrow:
   class: narrow-grid small-grid
+text:
+  class: text-grid

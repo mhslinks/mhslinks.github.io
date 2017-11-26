@@ -22,6 +22,35 @@ body
 	width: 280px;
 }
 
+.links-body-inner
+{
+	max-width: 560px;
+}
+
+.links-body-inner .pure-g
+{
+	justify-content: center;
+	margin: auto;
+	max-width: 50%;
+}
+
+.links-body-inner .pure-g.text-grid
+{
+	max-width: 100%;
+}
+
+.links-body-inner .pure-g.narrow-grid
+{
+	width: 70%;
+	margin: auto;
+}
+
+.links-body-inner .pure-g.small-grid
+{
+	font-size: 70%;
+}
+
+
 .pure-g .pure-button
 {
 	display: block;
@@ -199,7 +228,8 @@ body
 }
 
 .links-body,
-.emails-body
+.emails-body,
+.links-body-inner
 {
 	text-align: center;
 }
@@ -261,17 +291,6 @@ a:focus>.email
 .removed
 {
 	display: none;
-}
-
-.narrow-grid
-{
-	width: 70%;
-	margin: auto;
-}
-
-.small-grid
-{
-	font-size: 70%;
 }
 
 
