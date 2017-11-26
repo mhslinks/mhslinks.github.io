@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="outer">
+      <div class="middle">
+        {% include header.html %}
+        {% include links-body.html %}
+        {{ content }}
+      </div>
+    </div>
+
+    {% include floater.html %}
+    {% include js.html %}
+
+  </body>
+
+</html>
