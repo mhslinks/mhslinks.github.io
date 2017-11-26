@@ -20,9 +20,8 @@ sections:
 
         - text: "This is a link to google.com."
     - type: small
-
-        body:
-            - text: "This is small text."
+	body:
+		- text: "This is small text."
 ---
 ```
 
