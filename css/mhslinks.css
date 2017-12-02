@@ -187,15 +187,12 @@ body
 	opacity:0;
 	animation:fadeIn ease-in 1;
 	animation-fill-mode:forwards;
-	animation-duration:0.5s;
+	animation-duration: 0.2s;
 }
 
-.fade-one {
+.fade-long {
 	animation-delay: 0.5s;
-}
-
-.fade-two {
-	animation-duration:0.2s;
+	animation-duration: 0.5s;
 }
 
 .links-header,
