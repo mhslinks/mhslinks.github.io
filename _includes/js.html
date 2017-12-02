@@ -34,10 +34,10 @@ if (nightModeCookie) {
 function toggleNightMode() {
 	if (document.body.className === "night-mode") {
 		setNightMode(false);
-		Cookies.set('night-mode-enabled', false);
+		Cookies.set('night-mode-enabled', false, { expires: 3650 });
 	} else {
 		setNightMode(true);
-		Cookies.set('night-mode-enabled', true);
+		Cookies.set('night-mode-enabled', true, { expires: 3650 });
 	}
 }
 
