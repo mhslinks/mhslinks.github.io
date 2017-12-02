@@ -106,6 +106,12 @@ body
 	padding-top: 0px;
 }
 
+.inner.inner-unpadded
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 .inner-markdown {
 	width: 50%;
 }

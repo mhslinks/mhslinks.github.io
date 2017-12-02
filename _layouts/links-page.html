@@ -8,8 +8,15 @@
     <div class="outer">
       <div class="middle">
         {% include header.html %}
-        {% include links-body.html %}
-        {{ content }}
+        <div class="inner inner-bottom-padded links-body fade-in">
+          {% if page.content-below-links %}
+            {% include links-body.html %}
+            {{ content }}
+          {% else %}
+            {{ content }}
+            {% include links-body.html %}
+          {% endif %}
+        </div>
       </div>
     </div>
 
