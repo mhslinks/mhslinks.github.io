@@ -19,7 +19,13 @@ body
 
 .links-body
 {
-	width: 280px;
+	max-width: 560px;
+}
+
+.links-body .header-image
+{
+	width: 25%;
+	max-width: 70px;
 }
 
 .links-body-inner
