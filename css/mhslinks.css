@@ -5,8 +5,11 @@ body
     -o-transition: background .2s ease-in;
     -webkit-transition: background .2s ease-in;
     transition: background .2s ease-in;
+}
 
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 .pure-g div {
