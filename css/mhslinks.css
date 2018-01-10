@@ -203,11 +203,6 @@ html, button, input, select, textarea,
 	animation-duration: 0.2s;
 }
 
-.fade-long {
-	animation-delay: 0.5s;
-	animation-duration: 0.5s;
-}
-
 .links-header,
 .links-body,
 .links-footer
