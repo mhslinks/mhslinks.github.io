@@ -204,9 +204,14 @@ html, button, input, select, textarea,
 }
 
 .links-header,
-.links-body
+.links-body,
+.links-footer
 {
 	text-align: center;
+}
+
+.links-footer p {
+	font-size: 60%;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
