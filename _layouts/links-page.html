@@ -8,7 +8,7 @@
     <div class="outer">
       <div class="middle">
         {% include header.html %}
-        <div class="inner inner-bottom-padded links-body fade-in">
+        <div class="inner inner-unpadded links-body fade-in">
           {% if page.content-below-links %}
             {% include links-body.html %}
             {{ content }}
@@ -17,6 +17,7 @@
             {% include links-body.html %}
           {% endif %}
         </div>
+        {% include footer.html %}
       </div>
     </div>
 

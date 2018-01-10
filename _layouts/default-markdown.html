@@ -8,9 +8,10 @@
     <div class="outer">
       <div class="middle">
         {% include header.html %}
-        <div class="inner inner-bottom-padded inner-markdown">
+        <div class="inner inner-unpadded inner-markdown">
           {{ content }}
         </div>
+        {% include footer.html %}
       </div>
     </div>
 

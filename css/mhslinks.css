@@ -7,6 +7,11 @@ body
     transition: background .2s ease-in;
 }
 
+.github-corner svg {
+	transition: all .2s ease-in;
+	transition-property: color, fill;
+}
+
 html, button, input, select, textarea,
     .pure-g [class *= "pure-u"] {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
@@ -94,8 +99,8 @@ html, button, input, select, textarea,
 {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .inner.inner-top-padded
@@ -163,29 +168,6 @@ html, button, input, select, textarea,
 	display: inline-block;
 }
 
-#floater
-{
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 210px;
-	margin: 3px;
-	text-align: right;
-}
-
-#floater>div
-{
-	display: inline-block;
-	float: right;
-	clear: right;
-	font-size: 60%;
-	margin: 1px;
-	padding: 4px;
-	background-color: #EEE;
-	text-align: center;
-	border-radius: 5px;
-}
-
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -198,15 +180,15 @@ html, button, input, select, textarea,
 	animation-duration: 0.2s;
 }
 
-.fade-long {
-	animation-delay: 0.5s;
-	animation-duration: 0.5s;
-}
-
 .links-header,
-.links-body
+.links-body,
+.links-footer
 {
 	text-align: center;
+}
+
+.links-footer p {
+	font-size: 60%;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
