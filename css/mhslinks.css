@@ -17,6 +17,10 @@ html, button, input, select, textarea,
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
+.section-header {
+	font-weight: bold;
+}
+
 .pure-g div {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
