@@ -94,8 +94,8 @@ html, button, input, select, textarea,
 {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .inner.inner-top-padded
