@@ -169,7 +169,7 @@ html, button, input, select, textarea,
 	top: 0;
 	right: 0;
 	width: 210px;
-	margin: 3px;
+	margin: 0px;
 	text-align: right;
 }
 
@@ -210,7 +210,7 @@ html, button, input, select, textarea,
 	text-align: center;
 }
 
-.links-footer p {
+.links-footer p, a {
 	font-size: 60%;
 }
 
