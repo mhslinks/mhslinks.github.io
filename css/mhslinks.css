@@ -7,6 +7,11 @@ body
     transition: background .2s ease-in;
 }
 
+.github-corner svg {
+	transition: all .2s ease-in;
+	transition-property: color, fill;
+}
+
 html, button, input, select, textarea,
     .pure-g [class *= "pure-u"] {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;

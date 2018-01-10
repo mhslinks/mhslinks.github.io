@@ -2,6 +2,11 @@ body.night-mode {
 	background: #222;
 }
 
+body.night-mode #floater a.github-corner svg {
+	color: #222 !important;
+	fill: #fff !important;
+}
+
 body.night-mode #mhslinks-title {
 	color: white;
 }
