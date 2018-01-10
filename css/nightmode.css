@@ -15,8 +15,12 @@ body.night-mode div.inner {
 	color: white;
 }
 
+body.night-mode p a {
+	color: #0af;
+}
+
 body.night-mode .button-green {
-    background: rgb(28, 144, 65);
+	background: rgb(28, 144, 65);
 }
 
 body.night-mode .button-red {
@@ -32,7 +36,7 @@ body.night-mode .button-darkblue {
 }
 
 body.night-mode .button-blue {
-    background: rgb(50, 98, 127);
+	background: rgb(50, 98, 127);
 }
 
 body.night-mode .button-lightblue {
