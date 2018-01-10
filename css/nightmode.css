@@ -2,7 +2,7 @@ body.night-mode {
 	background: #222;
 }
 
-body.night-mode #floater a.github-corner svg {
+body.night-mode .github-corner svg {
 	color: #222 !important;
 	fill: #fff !important;
 }
