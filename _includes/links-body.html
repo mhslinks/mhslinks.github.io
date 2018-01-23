@@ -2,12 +2,12 @@
 <div class="pure-g{% if section.type and site.data.sectiontypes[section.type].class %} {{ site.data.sectiontypes[section.type].class }}{% endif %}">
   {% for link in section.body %}
   {% if link.title %}
-  <div class="pure-u-{{ link.size | default: '1' }} section-header">{{ link.title }}</div>
+  <div class="pure-u-{{ link.width | default: '1' }} section-header">{{ link.title }}</div>
   <div class="pure-u-1 filler"></div>
   {% elsif link.text %}
-  <div class="pure-u-{{ link.size | default: '1' }}">{{ link.text }}</div>
+  <div class="pure-u-{{ link.width | default: '1' }}">{{ link.text }}</div>
   {% elsif link %}
-  <div class="pure-u-{{ link.size | default: '1' }}{% if link.divclasses %} {{ link.divclasses }}{% endif %}"><a class="pure-button link-button button-{{ link.colour || default: 'blue' }}" href="{{ link.url }}">{{ link.name }}</a></div>
+  <div class="pure-u-{{ link.width | default: '1' }}{% if link.divclasses %} {{ link.divclasses }}{% endif %}"><a class="pure-button link-button button-{{ link.colour || default: 'blue' }}" href="{{ link.url }}">{{ link.name }}</a></div>
   {% else %}
   <div class="pure-u-1 filler"></div>
   {% endif %}
