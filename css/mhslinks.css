@@ -176,7 +176,7 @@ html, button, input, select, textarea,
 }
 
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes slideIn { from { transform: translateY(3%); } to { transform: translateY(0); } }
+@keyframes slideIn { from { transform: translateY(5px); } to { transform: translateY(0); } }
 
 .fade-in
 {
