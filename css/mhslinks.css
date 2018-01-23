@@ -132,6 +132,10 @@ html, button, input, select, textarea,
 	max-width: 100%;
 }
 
+.link-button {
+	border-radius: 3px;
+}
+
 .button-green,
 .button-red,
 .button-orange,
@@ -139,7 +143,6 @@ html, button, input, select, textarea,
 .button-lightblue,
 .button-darkblue {
 	color: white;
-	border-radius: 4px;
 }
 
 .button-green {
