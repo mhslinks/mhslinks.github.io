@@ -209,7 +209,7 @@ a
 	outline:none;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 35.5rem)
 {
 	.links-header .header-image {
 		width: 50px;
@@ -222,7 +222,11 @@ a
 	{
 		font-size: 100%;
 	}
-	.links-body .narrow-grid
+	.links-body .pure-g
+	{
+		max-width: 80vw;
+	}
+	.links-body .pure-g.narrow-grid
 	{
 		width: 100%;
 	}
