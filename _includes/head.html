@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   <link rel="shortcut icon" href="/images/icon-128.png">
   <link rel="apple-touch-icon-precomposed" href="/images/icon-128.png">
   <link rel="stylesheet" href="{{ "/css/pure-min.css" | prepend: site.baseurl }}">
