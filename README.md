@@ -1,5 +1,4 @@
-MHS Links
-========
+# MHS Links
 
 A collection of links for Melbourne High School.
 
@@ -7,18 +6,20 @@ A collection of links for Melbourne High School.
 
 Contributing to MHS Links is easy. Here is an example page:
 
-```
+```yaml
 ---
 layout: links-page
 title: An example page
 sections:
-    - body:
+    - type: standard
+    body:
         - name: "A link"
         url: https://google.com
-        size: 1-1
+        width: 1-1
         colour: blue
 
         - text: "This is a link to google.com."
+
     - type: small
     body:
         - text: "This is small text."
