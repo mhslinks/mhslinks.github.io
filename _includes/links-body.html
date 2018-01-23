@@ -7,7 +7,7 @@
   {% elsif link.text %}
   <div class="pure-u-1-1 pure-u-md-{{ link.size | default: '1-1' }}">{{ link.text }}</div>
   {% elsif link %}
-  <div class="pure-u-1-1 pure-u-md-{{ link.size | default: '1-1' }}{% if link.divclasses %} {{ link.divclasses }}{% endif %}"><a class="pure-button link-button button-xlarge{% if link.colour %} button-{{ link.colour }}{% endif %}" href="{{ link.url }}">{{ link.name }}</a></div>
+  <div class="pure-u-1-1 pure-u-md-{{ link.size | default: '1-1' }}{% if link.divclasses %} {{ link.divclasses }}{% endif %}"><a class="pure-button link-button{% if link.colour %} button-{{ link.colour }}{% endif %}" href="{{ link.url }}">{{ link.name }}</a></div>
   {% else %}
   <div class="pure-u-1-1 filler"></div>
   {% endif %}
