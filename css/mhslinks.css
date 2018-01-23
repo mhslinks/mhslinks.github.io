@@ -175,16 +175,15 @@ html, button, input, select, textarea,
 	display: inline-block;
 }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes slideIn { from { transform: translateY(3%); } to { transform: translateY(0); } }
 
 .fade-in
 {
 	opacity:0;
-	animation:fadeIn ease-in 1;
-	animation-fill-mode:forwards;
-	animation-duration: 0.2s;
+	animation: fadeIn ease-in 1, slideIn ease-out 1;
+	animation-fill-mode: forwards;
+	animation-duration: 0.3s;
 }
 
 .links-header,
