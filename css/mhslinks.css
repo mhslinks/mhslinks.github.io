@@ -230,4 +230,7 @@ a
 	{
 		width: 100%;
 	}
+	.inner-markdown {
+		width: 80vw;
+	}
 }
