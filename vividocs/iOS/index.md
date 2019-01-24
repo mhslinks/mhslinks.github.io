@@ -1,5 +1,5 @@
 ---
-layout: default-markdown
+layout: markdown-page
 title: Vivi Installation - iOS
 ---
 Download Vivi from [http://get.vivi.io/](http://get.vivi.io/) or the App Store.

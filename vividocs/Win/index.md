@@ -1,5 +1,5 @@
 ---
-layout: default-markdown
+layout: markdown-page
 title: Vivi Installation - Windows
 ---
 Download Vivi from [http://get.vivi.io/](http://get.vivi.io/).

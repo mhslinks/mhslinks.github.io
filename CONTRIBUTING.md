@@ -47,7 +47,7 @@ Documentation can be written easily using GitHub-flavoured Markdown.
 ```markdown
 ---
 # Don't change this line, otherwise you'll disable Markdown formatting.
-layout: default-markdown
+layout: markdown-page
 
 title: Vivi Installation - Windows
 ---
