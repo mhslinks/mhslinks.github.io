@@ -7,10 +7,6 @@ body.night-mode .github-corner svg {
 	fill: #fff !important;
 }
 
-body.night-mode #mhslinks-title {
-	color: white;
-}
-
 body.night-mode div.inner {
 	color: white;
 }
